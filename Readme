@@ -1,0 +1,20 @@
+There are two new protections (SQL Injection and zabbix)
+The new protections are been activated as extended flags to /sys/class/fw5/fw5_rules/config
+The new flags are:
+FW_CONFIG_SQL_PROTECT1	 	= 0x40,
+FW_CONFIG_SQL_PROTECT2	 	= 0x80,
+FW_CONFIG_ZABBIX		= 0x100
+
+To activate zabbix use 0x100 flag, note that zabbix depends also on ACTIVE flag, TCP flag and Connection Track to be active.
+After activating this protection, for example by writing echo 309 > /sys/class/fw5/fw5_rules/config, the protection is active. (309 is active + tcp + connection table + accept rule + zabbix)
+The protection should drop zabbix attacks as described by the CR.
+
+The SQL Injection has for mods: disabled, low, medium and high. if both of the flags are off, SQL Injection protection is disabled,
+If only protect1 flag is on - the protection is in low mode, protect 2 - medium and both for high.
+Each protection level has deferent thresholds to support deferent levels of SQL Injection protections.
+
+Examples:
+echo 117 > /sys/class/fw5/fw5_rules/config, the protection is active. (309 is active + tcp + connection table + accept rule + protect1)
+echo 181 > /sys/class/fw5/fw5_rules/config, the protection is active. (309 is active + tcp + connection table + accept rule + protect2)
+echo 245 > /sys/class/fw5/fw5_rules/config, the protection is active. (309 is active + tcp + connection table + accept rule + protect1 + protect2)
+echo 373 > /sys/class/fw5/fw5_rules/config, the protection is active. (309 is active + tcp + connection table + accept rule + protect1 + zabbix) - Should be caught by zabbix because protect1 made so to miss the protection.

@@ -1,0 +1,122 @@
+[ 6872.830515] DEBUG_INFO: load_rule_base: called
+[ 6872.830522] DEBUG_INFO: load_rule_base: fw_malloc rule_base.
+[ 6872.830528] DEBUG_INFO: prepare_rule_base: called
+[ 6872.830534] DEBUG_INFO: commit_rule_base: called
+[ 6872.830601] Firewall module loaded.
+[ 6872.831334] DEBUG_INFO: fwmod_rules_config_store: received config flag: 383
+[ 6872.831340] 
+[ 6872.831346] DEBUG_INFO: fwmod_rules_config_store: fw - active, icmp - active, tcp - active, udp - active, conn_track - active, cleanup - active, sql1 - active, sql2 - inactive, zabbix - active
+[ 6872.831355] DEBUG_INFO: load_rule_base: called
+[ 6872.831359] DEBUG_INFO: load_rule_base: fw_malloc rule_base.
+[ 6872.831364] DEBUG_INFO: get_rule_base_mmap: called
+[ 6872.831370] DEBUG_INFO: load_rule_base: reading mmap entry: 0 protocol: 1 src_mask: 32 dst_mask: 32 action: 1 src_port: 0 dst_port: 0 src_ip: 127.0.0.1 dst_ip: 127.0.0.1
+[ 6872.831376] DEBUG_INFO: load_rule_base: reading mmap entry: 1 protocol: 6 src_mask: 32 dst_mask: 32 action: 1 src_port: 0 dst_port: 0 src_ip: 127.0.0.1 dst_ip: 127.0.0.1
+[ 6872.831382] DEBUG_INFO: load_rule_base: reading mmap entry: 2 protocol: 17 src_mask: 32 dst_mask: 32 action: 1 src_port: 0 dst_port: 0 src_ip: 127.0.0.1 dst_ip: 127.0.0.1
+[ 6872.831387] DEBUG_INFO: prepare_rule_base: called
+[ 6872.831392] DEBUG_INFO: commit_rule_base: called
+[ 6872.831396] DEBUG_INFO: clean_rule_base: called
+[ 6872.831400] DEBUG_INFO: clean_rule_base: freeing connection table.
+[ 6873.632392] len: 16
+[ 6874.592349] len: 16
+[ 6875.616856] len: 16
+[ 6875.616953] len: 16
+[ 6876.917390] len: 16
+[ 6876.917437] len: 16
+[ 6876.917472] len: 16
+[ 6876.917504] len: 16
+[ 6876.917535] len: 16
+[ 6876.917566] len: 16
+[ 6877.148262] len: 16
+[ 6877.148320] len: 16
+[ 6877.148369] len: 16
+[ 6877.153113] len: 16
+[ 6877.156422] len: 16
+[ 6877.156475] len: 16
+[ 6877.612320] len: 16
+[ 6877.612375] len: 16
+[ 6877.612420] len: 16
+[ 6877.624303] len: 16
+[ 6877.637220] len: 16
+[ 6877.637278] len: 16
+[ 6878.541153] len: 16
+[ 6878.541223] len: 16
+[ 6878.541276] len: 16
+[ 6878.568257] len: 16
+[ 6878.596158] len: 16
+[ 6878.596211] len: 16
+[ 6880.400204] len: 16
+[ 6880.400228] len: 16
+[ 6880.400254] len: 16
+[ 6880.460286] len: 16
+[ 6880.520277] len: 16
+[ 6880.520334] len: 16
+[ 6880.569392] len: 16
+[ 6880.570854] DEBUG_INFO: parse_http_protocol: called data len: 16, port: 80, client: false 
+[ 6880.570862] DEBUG_INFO: enforce_http_protections: called sql_mode: 1, zabbix_active: 1
+[ 6880.570868] DEBUG_INFO: sqli_protection: called prot_mode: 1.
+[ 6880.570874] DEBUG_INFO: zabbix_protection: called
+[ 6880.570894] BUG: unable to handle kernel NULL pointer dereference at   (null)
+[ 6880.570902] IP: [<c12b8815>] strcmp+0x15/0x30
+[ 6880.570913] *pdpt = 000000002d072001 *pde = 0000000000000000 
+[ 6880.570921] Oops: 0000 [#1] SMP 
+[ 6880.570928] Modules linked in: fw5(O) vboxsf(O) vboxvideo(O) drm bnep rfcomm bluetooth vesafb snd_intel8x0 snd_ac97_codec ac97_bus snd_pcm snd_seq_midi snd_rawmidi snd_seq_midi_event snd_seq snd_timer snd_seq_device snd joydev psmouse i2c_piix4 soundcore vboxguest(O) snd_page_alloc ppdev serio_raw parport_pc mac_hid lp parport usbhid hid e1000 [last unloaded: fw5]
+[ 6880.570957] 
+[ 6880.570964] Pid: 3761, comm: Chrome_IOThread Tainted: G           O 3.2.0-37-generic-pae #58-Ubuntu innotek GmbH VirtualBox/VirtualBox
+[ 6880.570972] EIP: 0060:[<c12b8815>] EFLAGS: 00010292 CPU: 2
+[ 6880.570979] EIP is at strcmp+0x15/0x30
+[ 6880.570985] EAX: 00000000 EBX: d0c00000 ECX: 000000a5 EDX: fe926bbb
+[ 6880.570991] ESI: 00000000 EDI: fe926bbb EBP: ed293c24 ESP: ed293c1c
+[ 6880.570997]  DS: 007b ES: 007b FS: 00d8 GS: 00e0 SS: 0068
+[ 6880.571003] Process Chrome_IOThread (pid: 3761, ti=ed292000 task=f00a4c20 task.ti=ed292000)
+[ 6880.571008] Stack:
+[ 6880.571013]  ed293d38 d0c00000 ed293c78 fe922508 fe926ba0 fe9253bc 00000000 00000000
+[ 6880.571024]  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 6880.571033]  00000000 00000000 d0c00000 ed293c78 ef1da620 ed293d38 d0c00000 ed293c9c
+[ 6880.571042] Call Trace:
+[ 6880.571052]  [<fe922508>] zabbix_protection+0x58/0x280 [fw5]
+[ 6880.571061]  [<fe922e79>] enforce_http_protections+0x69/0xb0 [fw5]
+[ 6880.571069]  [<fe921bb4>] handle_tcp_conn_chain+0x214/0x340 [fw5]
+[ 6880.571077]  [<fe920871>] firewall_rx+0x421/0x6e0 [fw5]
+[ 6880.571087]  [<c104a725>] ? reweight_entity+0x125/0x130
+[ 6880.571094]  [<c104249f>] ? __enqueue_entity+0x6f/0x80
+[ 6880.571103]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[ 6880.571111]  [<c14d3a03>] nf_iterate+0x63/0x90
+[ 6880.571118]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[ 6880.571126]  [<c14d3a92>] nf_hook_slow+0x62/0x110
+[ 6880.571133]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[ 6880.571141]  [<c14dee91>] __ip_local_out+0xa1/0xb0
+[ 6880.571148]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[ 6880.571155]  [<c14deeb0>] ip_local_out+0x10/0x30
+[ 6880.571162]  [<c14defee>] ip_queue_xmit+0x11e/0x3c0
+[ 6880.571171]  [<c14f77cf>] ? tcp_v4_md5_lookup+0xf/0x20
+[ 6880.571179]  [<c15a5636>] ? tcp_syn_options+0xab/0x1b2
+[ 6880.571186]  [<c14f4de7>] tcp_transmit_skb+0x2d7/0x4a0
+[ 6880.571194]  [<c14f51b8>] tcp_connect+0x148/0x1e0
+[ 6880.571201]  [<c14f9698>] tcp_v4_connect+0x328/0x480
+[ 6880.571209]  [<c15099ef>] inet_stream_connect+0x12f/0x1a0
+[ 6880.571217]  [<c149cb71>] sys_connect+0xc1/0xe0
+[ 6880.571226]  [<c15a81a6>] ? _raw_spin_unlock_bh+0x16/0x20
+[ 6880.571234]  [<c149e85f>] ? release_sock+0x5f/0x70
+[ 6880.571259]  [<c14e8f7a>] ? tcp_setsockopt+0x4a/0x60
+[ 6880.571267]  [<c149df07>] ? sock_common_setsockopt+0x27/0x40
+[ 6880.571275]  [<c12b8f8f>] ? __copy_from_user_ll+0x1f/0x40
+[ 6880.571282]  [<c149d7a3>] sys_socketcall+0xc3/0x2c0
+[ 6880.571290]  [<c12b90c0>] ? copy_to_user+0x40/0x60
+[ 6880.571299]  [<c1079448>] ? sys_clock_gettime+0x48/0x70
+[ 6880.571307]  [<c15af55f>] sysenter_do_call+0x12/0x28
+[ 6880.571316]  [<c15a0000>] ? setterm_command+0xae/0x1b5
+[ 6880.571321] Code: 5d f4 8b 7d fc 89 ec 5d c3 8d b6 00 00 00 00 8d bc 27 00 00 00 00 55 89 e5 83 ec 08 89 75 f8 89 7d fc 3e 8d 74 26 00 89 c6 89 d7 <ac> ae 75 08 84 c0 75 f8 31 c0 eb 04 19 c0 0c 01 8b 75 f8 8b 7d 
+[ 6880.571358] EIP: [<c12b8815>] strcmp+0x15/0x30 SS:ESP 0068:ed293c1c
+[ 6880.571365] CR2: 0000000000000000
+[ 6880.571394] ---[ end trace 02df66d69e796489 ]---
+[ 6880.736745] len: 16
+[ 6880.736784] len: 16
+[ 6880.864719] len: 16
+[ 6883.936562] len: 16
+[ 6883.936582] len: 16
+[ 6884.120146] len: 16
+[ 6884.120172] len: 16
+[ 6884.120193] len: 16
+[ 6884.241001] len: 16
+[ 6884.368881] len: 16
+[ 6884.368912] len: 16

@@ -1,0 +1,9 @@
+# This rule base blocks rsh connection (TCP port 514) and allows anything else.
+# syntax: client_min client_max server_min server_max verdict
+# client and server min and max are between 0 to 255
+# verdict is either 'A'ccept or 'D'rop
+# prot  s_msk		d_msk		ACT		s_prt		d_prt		s_ip		d_ip
+6	0		0		0		514		0		0		0
+6	0		0		0		0		514		0		0
+0	0		0		1		0		0		0		0
+255	0		0		0		0		0		0		0

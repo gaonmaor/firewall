@@ -1,0 +1,174 @@
+[ 3482.299392] DEBUG_INFO: load_rule_base: called
+[ 3482.299400] DEBUG_INFO: load_rule_base: fw_malloc rule_base.
+[ 3482.299406] DEBUG_INFO: prepare_rule_base: called
+[ 3482.299414] DEBUG_INFO: commit_rule_base: called
+[ 3482.299475] Firewall module loaded.
+[ 3488.875909] DEBUG_INFO: fwmod_rules_config_store: received config flag: 255
+[ 3488.875916] 
+[ 3488.875927] DEBUG_INFO: load_rule_base: called
+[ 3488.875933] DEBUG_INFO: load_rule_base: fw_malloc rule_base.
+[ 3488.875939] DEBUG_INFO: get_rule_base_mmap: called
+[ 3488.875947] DEBUG_INFO: load_rule_base: reading mmap entry: 0 protocol: 1 src_mask: 32 dst_mask: 32 action: 1 src_port: 0 dst_port: 0 src_ip: 127.0.0.1 dst_ip: 127.0.0.1
+[ 3488.875955] DEBUG_INFO: load_rule_base: reading mmap entry: 1 protocol: 6 src_mask: 32 dst_mask: 32 action: 1 src_port: 0 dst_port: 0 src_ip: 127.0.0.1 dst_ip: 127.0.0.1
+[ 3488.875963] DEBUG_INFO: load_rule_base: reading mmap entry: 2 protocol: 17 src_mask: 32 dst_mask: 32 action: 1 src_port: 0 dst_port: 0 src_ip: 127.0.0.1 dst_ip: 127.0.0.1
+[ 3488.875970] DEBUG_INFO: prepare_rule_base: called
+[ 3488.875977] DEBUG_INFO: commit_rule_base: called
+[ 3488.875982] DEBUG_INFO: clean_rule_base: called
+[ 3488.875988] DEBUG_INFO: clean_rule_base: freeing connection table.
+[ 3495.108835] len: 16
+[ 3495.108843] firewall_rx: data addrs data: ed0d5d30 sk: ee912600
+[ 3495.108850] 61 b7 a0 04 1f 00 00 00 f4 7f e6 bf 0f 00 00 00  a...............
+[ 3495.112265] len: 16
+[ 3495.112272] firewall_rx: data addrs data: ed0d5330 sk: ee913400
+[ 3495.112279] 51 00 00 00 0d 53 45 4c 45 43 54 20 31 00 4d f6  Q....SELECT 1.M.
+[ 3495.113681] DEBUG_INFO: parse_http_protocol: called data len: 16 port: 80
+[ 3495.114203] DEBUG_INFO: parse_http_protocol: called data len: 182 port: 55092
+[ 3495.114330] len: 16
+[ 3495.114337] firewall_rx: data addrs data: ed0d5330 sk: eea083c0
+[ 3495.114343] 51 00 00 00 0d 53 45 4c 45 43 54 20 31 00 4d 00  Q....SELECT 1.M.
+[ 3495.114355] DEBUG_INFO: parse_http_protocol: called data len: 16 port: 80
+[ 3495.114862] len: 1552
+[ 3495.114869] firewall_rx: data addrs data: ef268930 sk: ee913400
+[ 3495.114875] 47 45 54 20 2f 7a 61 62 62 69 78 2f 68 74 74 70  GET /zabbix/http
+[ 3495.114881] 6d 6f 6e 2e 70 68 70 3f 61 70 70 6c 69 63 61 74  mon.php?applicat
+[ 3495.114887] 69 6f 6e 73 3d 32 25 32 30 61 6e 64 25 32 30 28  ions=2%20and%20(
+[ 3495.114893] 73 65 6c 65 63 74 25 32 30 31 25 32 30 66 72 6f  select%201%20fro
+[ 3495.114899] 6d 25 32 30 28 73 65 6c 65 63 74 25 32 30 63 6f  m%20(select%20co
+[ 3495.114905] 75 6e 74 28 2a 29 2c 63 6f 6e 63 61 74 28 28 73  unt(*),concat((s
+[ 3495.114911] 65 6c 65 63 74 28 73 65 6c 65 63 74 25 32 30 63  elect(select%20c
+[ 3495.114917] 6f 6e 63 61 74 28 63 61 73 74 28 63 6f 6e 63 61  oncat(cast(conca
+[ 3495.114923] 74 28 61 6c 69 61 73 2c 30 78 37 65 2c 70 61 73  t(alias,0x7e,pas
+[ 3495.114929] 73 77 64 2c 30 78 37 65 29 25 32 30 61 73 25 32  swd,0x7e)%20as%2
+[ 3495.114935] 30 63 68 61 72 29 2c 30 78 37 65 29 29 25 32 30  0char),0x7e))%20
+[ 3495.114941] 66 72 6f 6d 25 32 30 7a 61 62 62 69 78 2e 75 73  from%20zabbix.us
+[ 3495.114947] 65 72 73 25 32 30 4c 49 4d 49 54 25 32 30 30 2c  ers%20LIMIT%200,
+[ 3495.114953] 31 29 2c 66 6c 6f 6f 72 28 72 61 6e 64 28 30 29  1),floor(rand(0)
+[ 3495.114959] 2a 32 29 29 78 25 32 30 66 72 6f 6d 25 32 30 69  *2))x%20from%20i
+[ 3495.114965] 6e 66 6f 72 6d 61 74 69 6f 6e 5f 73 63 68 65 6d  nformation_schem
+[ 3495.114970] 61 2e 74 61 62 6c 65 73 25 32 30 67 72 6f 75 70  a.tables%20group
+[ 3495.114976] 25 32 30 62 79 25 32 30 78 29 61 29 20 48 54 54  %20by%20x)a) HTT
+[ 3495.114982] 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 31 30 2e  P/1.1..Host: 10.
+[ 3495.114988] 30 2e 32 2e 34 0d 0a 43 6f 6e 6e 65 63 74 69 6f  0.2.4..Connectio
+[ 3495.114994] 6e 3a 20 6b 65 65 70 2d 61 6c 69 76 65 0d 0a 43  n: keep-alive..C
+[ 3495.115000] 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61  ache-Control: ma
+[ 3495.115006] 78 2d 61 67 65 3d 30 0d 0a 41 63 63 65 70 74 3a  x-age=0..Accept:
+[ 3495.115012] 20 74 65 78 74 2f 68 74 6d 6c 2c 61 70 70 6c 69   text/html,appli
+[ 3495.115037] 63 61 74 69 6f 6e 2f 78 68 74 6d 6c 2b 78 6d 6c  cation/xhtml+xml
+[ 3495.115043] 2c 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 6d 6c  ,application/xml
+[ 3495.115048] 3b 71 3d 30 2e 39 2c 2a 2f 2a 3b 71 3d 30 2e 38  ;q=0.9,*/*;q=0.8
+[ 3495.115055] 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 4d 6f  ..User-Agent: Mo
+[ 3495.115061] 7a 69 6c 6c 61 2f 35 2e 30 20 28 58 31 31 3b 20  zilla/5.0 (X11; 
+[ 3495.115067] 4c 69 6e 75 78 20 69 36 38 36 29 20 41 70 70 6c  Linux i686) Appl
+[ 3495.115072] 65 57 65 62 4b 69 74 2f 35 33 37 2e 31 37 20 28  eWebKit/537.17 (
+[ 3495.115078] 4b 48 54 4d 4c 2c 20 6c 69 6b 65 20 47 65 63 6b  KHTML, like Geck
+[ 3495.115084] 6f 29 20 43 68 72 6f 6d 65 2f 32 34 2e 30 2e 31  o) Chrome/24.0.1
+[ 3495.115090] 33 31 32 2e 35 36 20 53 61 66 61 72 69 2f 35 33  312.56 Safari/53
+[ 3495.115096] 37 2e 31 37 0d 0a 41 63 63 65 70 74 2d 45 6e 63  7.17..Accept-Enc
+[ 3495.115102] 6f 64 69 6e 67 3a 20 67 7a 69 70 2c 64 65 66 6c  oding: gzip,defl
+[ 3495.115107] 61 74 65 2c 73 64 63 68 0d 0a 41 63 63 65 70 74  ate,sdch..Accept
+[ 3495.115113] 2d 4c 61 6e 67 75 61 67 65 3a 20 65 6e 2d 55 53  -Language: en-US
+[ 3495.115119] 2c 65 6e 3b 71 3d 30 2e 38 0d 0a 41 63 63 65 70  ,en;q=0.8..Accep
+[ 3495.115125] 74 2d 43 68 61 72 73 65 74 3a 20 49 53 4f 2d 38  t-Charset: ISO-8
+[ 3495.115131] 38 35 39 2d 31 2c 75 74 66 2d 38 3b 71 3d 30 2e  859-1,utf-8;q=0.
+[ 3495.115137] 37 2c 2a 3b 71 3d 30 2e 33 0d 0a 0d 0a f1 f2 ff  7,*;q=0.3.......
+[ 3495.115143] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff d8 db e2 ff  ................
+[ 3495.115149] a1 a9 bd ff b3 ba cb ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115154] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115160] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115166] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff d2 d6 de ff  ................
+[ 3495.115172] a6 ae c3 ff b7 c0 d5 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115178] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115183] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115189] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff c6 cb d6 ff  ................
+[ 3495.115195] a6 af c4 ff bf c7 d8 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115201] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115206] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115212] f0 f1 f2 ff f0 f1 f2 ff ee ef f1 ff aa b2 c3 ff  ................
+[ 3495.115218] a8 b1 c7 ff ce d3 e0 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115224] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115230] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115236] f0 f1 f2 ff f0 f1 f2 ff c9 ce d7 ff a1 a9 bd ff  ................
+[ 3495.115242] b1 bb cf ff ea eb ee ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115247] f0 f1 f2 ff ef f0 f1 ff e1 e3 e8 ff f0 f1 f2 ff  ................
+[ 3495.115253] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115258] ee ef f1 ff c3 c8 d4 ff a1 a9 bd ff a8 b1 c7 ff  ................
+[ 3495.115264] d4 d9 e4 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115270] f0 f1 f2 ff bf c4 d1 ff a1 a9 bd ff b3 b9 ca ff  ................
+[ 3495.115275] ce d3 dc ff d9 dc e2 ff da dd e2 ff c6 cb d6 ff  ................
+[ 3495.115281] ac b3 c4 ff a1 a9 bd ff a8 b1 c8 ff c3 ca db ff  ................
+[ 3495.115286] ef f0 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115292] f0 f1 f2 ff d2 d6 de ff ab b4 c9 ff b0 ba d0 ff  ................
+[ 3495.115297] ad b7 cc ff a6 af c5 ff a6 ae c3 ff a6 ae c3 ff  ................
+[ 3495.115303] a8 b1 c7 ff ae b8 ce ff d2 d7 e3 ff f0 f1 f2 ff  ................
+[ 3495.115309] f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115314] f0 f1 f2 ff f0 f1 f2 ff e5 e7 eb ff c9 cf de ff  ................
+[ 3495.115320] b7 c0 d4 ff b0 ba d0 ff b0 ba d0 ff c1 c8 d9 ff  ................
+[ 3495.115325] d0 d6 e2 ff e5 e7 ec ff f0 f1 f2 ff f0 f1 f2 ff  ................
+[ 3495.115331] f0 f1 f2 ff f0 f1 f2 ff e1 0d 00 00 e1 0d 00 00  ................
+[ 3495.115337] 6c 00 00 00 18 00 00 00 17 01 00 00 03 00 00 00  l...............
+[ 3495.115343] 06 14 00 00 14 00 00 00 08 e2 17 09 18 00 00 00  ................
+[ 3495.115348] f6 00 00 00 02 00 00 00 06 14 00 00 14 00 00 00  ................
+[ 3495.115354] 00 e2 17 09 07 00 00 00 c0 84 00 00 3b 3f 03 3e  ............;?.>
+[ 3495.115360] 35 c9 09 3d 00 80 b1 43 00 00 d2 42 00 00 00 00  5..=...C...B....
+[ 3495.115365] c0 84 00 00 3b 3f 03 3e 72 fe 6d 3d 00 80 b1 43  ....;?.>r.m=...C
+[ 3495.115371] 00 00 f2 42 00 00 00 00 c0 84 00 00 1b 1f 19 3e  ...B...........>
+[ 3495.115377] 72 fe 6d 3d 00 80 b9 43 00 00 f2 42 00 00 00 00  r.m=...C...B....
+[ 3495.115382] c0 84 00 00 1b 1f 19 3e 35 c9 09 3d 00 80 b9 43  .......>5..=...C
+[ 3495.115388] 00 00 d2 42 00 00 00 00 ef be ad de e1 0d 00 00  ...B............
+[ 3495.115394] 00 00 00 00 e1 0d 00 00 10 00 00 00 00 23 00 00  .............#..
+[ 3495.115399] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115405] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115410] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115416] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115421] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115427] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115433] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115438] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115444] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115450] 00 22 00 00 01 1e 00 00 10 00 00 00 00 23 00 00  ."...........#..
+[ 3495.115462] DEBUG_INFO: parse_http_protocol: called data len: 1552 port: 80
+[ 3495.115519] DEBUG_INFO: parse_http_request: method: GET uri: /zabbix/httpmon.php?applications=2%20and%20(select%201%20from%20(select%20count(*),concat((select(select%20concat(cast(concat(alias,0x7e,passwd,0x7e)%20as%20char),0x7e))%20from%20zabbix.users%20LIMIT%200,1),floor(rand(0)*2))x%20from%20information_schema.tables%20group%20by%20x)a) ver: HTTP/1.1 
+[ 3495.115528] DEBUG_INFO: parse_http_headers: name: Host value: 10.0.2.4 
+[ 3495.115534] DEBUG_INFO: parse_http_headers: name: Connection value: keep-alive 
+[ 3495.115540] DEBUG_INFO: parse_http_headers: name: Cache-Control value: max-age=0 
+[ 3495.115546] DEBUG_INFO: parse_http_headers: name: Accept value: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 
+[ 3495.115553] DEBUG_INFO: parse_http_headers: name: User-Agent value: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17 
+[ 3495.115560] DEBUG_INFO: parse_http_headers: name: Accept-Encoding value: gzip,deflate,sdch 
+[ 3495.115566] DEBUG_INFO: parse_http_headers: name: Accept-Language value: en-US,en;q=0.8 
+[ 3495.115574] DEBUG_INFO: parse_http_headers: name: Accept-Charset value: ISO-8859-1,utf-8;q=0.7,*;q=0.3 
+[ 3495.115582] DEBUG_INFO: parse_http_headers: name: \xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffd8\xffffffdb\xffffffe2\xffffffff\xffffffa1\xffffffa9\xffffffbd\xffffffff\xffffffb3\xffffffba\xffffffcb\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffd2\xffffffd6\xffffffde\xffffffff\xffffffa6\xffffffae\xffffffc3\xffffffff\xffffffb7\xffffffc0\xffffffd5\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffc6\xffffffcb\xffffffd6\xffffffff\xffffffa6\xffffffaf\xffffffc4\xffffffff\xffffffbf\xffffffc7\xffffffd8\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffee\xffffffef\xfffffff1\xffffffff\xffffffaa\xffffffb2\xffffffc3\xffffffff\xffffffa8\xffffffb1\xffffffc7\xffffffff\xffffffce\xffffffd3\xffffffe0\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffc9\xffffffce\xffffffd7\xffffffff\xffffffa1\xffffffa9\xffffffbd\xffffffff\xffffffb1\xffffffbb\xffffffcf\xffffffff\xffffffea\xffffffeb\xffffffee\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffef\xfffffff0\xfffffff1\xffffffff\xffffffe1\xffffffe3\xffffffe8\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffee\xffffffef\xfffffff1\xffffffff\xffffffc3\xffffffc8\xffffffd4\xffffffff\xffffffa1\xffffffa9\xffffffbd\xffffffff\xffffffa8\xffffffb1\xffffffc7\xffffffff\xffffffd4\xffffffd9\xffffffe4\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffbf\xffffffc4\xffffffd1\xffffffff\xffffffa1\xffffffa9\xffffffbd\xffffffff\xffffffb3\xffffffb9\xffffffca\xffffffff\xffffffce\xffffffd3\xffffffdc\xffffffff\xffffffd9\xffffffdc\xffffffe2\xffffffff\xffffffda\xffffffdd\xffffffe2\xffffffff\xffffffc6\xffffffcb\xffffffd6\xffffffff\xffffffac\xffffffb3\xffffffc4\xffffffff\xffffffa1\xffffffa9\xffffffbd\xffffffff\xffffffa8\xffffffb1\xffffffc8\xffffffff\xffffffc3\xffffffca\xffffffdb\xffffffff\xffffffef\xfffffff0\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffd2\xffffffd6\xffffffde\xffffffff\xffffffab\xffffffb4\xffffffc9\xffffffff\xffffffb0\xffffffba\xffffffd0\xffffffff\xffffffad\xffffffb7\xffffffcc\xffffffff\xffffffa6\xffffffaf\xffffffc5\xffffffff\xffffffa6\xffffffae\xffffffc3\xffffffff\xffffffa6\xffffffae\xffffffc3\xffffffff\xffffffa8\xffffffb1\xffffffc7\xffffffff\xffffffae\xffffffb8\xffffffce\xffffffff\xffffffd2\xffffffd7\xffffffe3\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffe5\xffffffe7\xffffffeb\xffffffff\xffffffc9\xffffffcf\xffffffde\xffffffff\xffffffb7\xffffffc0\xffffffd4\xffffffff\xffffffb0\xffffffba\xffffffd0\xffffffff\xffffffb0\xffffffba\xffffffd0\xffffffff\xffffffc1\xffffffc8\xffffffd9\xffffffff\xffffffd0\xffffffd6\xffffffe2\xffffffff\xffffffe5\xffffffe7\xffffffec\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xfffffff0\xfffffff1\xfffffff2\xffffffff\xffffffe1 value:  
+[ 3495.115592] DEBUG_INFO: parse_query_string: called
+[ 3495.115602] DEBUG_INFO: parse_attrib: name: applications value: 2 and (select 1 from (select count(*),concat((select(select concat(cast(concat(alias,0x7e,passwd,0x7e) as char),0x7e)) from zabbix.users LIMIT 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a)
+[ 3495.115610] DEBUG_INFO: parse_http_request: decoded uri: /zabbix/httpmon.php
+[ 3495.115615] DEBUG_INFO: enforce_http_protections: called
+[ 3495.115621] DEBUG_INFO: sqli_protection: called.
+[ 3495.115627] DEBUG_INFO: sqli_unballanced_commas: called for 2 and (select 1 from (select count(*),concat((select(select concat(cast(concat(alias,0x7e,passwd,0x7e) as char),0x7e)) from zabbix.users LIMIT 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a).
+[ 3495.115731] DEBUG_INFO: sqli_unballanced_commas: buff: 2 and (select 1 from (select count(*),concat((select(select concat(cast(concat(alias,0x7e,passwd,0x7e) as char),0x7e)) from zabbix.users LIMIT 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a). single_comma: false mysql_comma: false
+[ 3495.115739] DEBUG_INFO: sqli_search: called
+[ 3495.115747] DEBUG_INFO: sqli_search: match at offset 13: 
+[ 3495.115753] DEBUG_INFO: sqli_search: match[0] (select), 
+[ 3495.117620] DEBUG_INFO: enforce_http_protections: called
+[ 3495.117628] DEBUG_INFO: sqli_protection: called.
+[ 3495.117634] DEBUG_INFO: sqli_unballanced_commas: called for 2 and (select 1 from (select count(*),concat((select(select concat(cast(concat(alias,0x7e,passwd,0x7e) as char),0x7e)) from zabbix.users LIMIT 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a).
+[ 3495.117739] DEBUG_INFO: sqli_unballanced_commas: buff: 2 and (select 1 from (select count(*),concat((select(select concat(cast(concat(alias,0x7e,passwd,0x7e) as char),0x7e)) from zabbix.users LIMIT 0,1),floor(rand(0)*2))x from information_schema.tables group by x)a). single_comma: false mysql_comma: false
+[ 3495.117751] DEBUG_INFO: sqli_search: called
+[ 3495.117760] DEBUG_INFO: sqli_search: match at offset 13: 
+[ 3495.117767] DEBUG_INFO: sqli_search: match[0] (select), 
+[ 3495.312156] len: 16
+[ 3495.312163] firewall_rx: data addrs data: ed0d5d30 sk: ee912600
+[ 3495.312170] 61 b7 a0 04 1f 00 00 00 f4 7f e6 bf 0f 00 00 00  a...............
+[ 3495.720116] len: 16
+[ 3495.720122] firewall_rx: data addrs data: ed0d5d30 sk: ee912600
+[ 3495.720127] 61 b7 a0 04 1f 00 00 00 f4 7f e6 bf 0f 00 00 00  a...............
+[ 3496.536149] len: 16
+[ 3496.536156] firewall_rx: data addrs data: ed0d5d30 sk: ee912600
+[ 3496.536161] 61 b7 a0 04 1f 00 00 00 f4 7f e6 bf 0f 00 00 00  a...............
+[ 3498.172173] len: 16
+[ 3498.172179] firewall_rx: data addrs data: ed0d5d30 sk: ee912600
+[ 3498.172184] 61 b7 a0 04 1f 00 00 00 f4 7f e6 bf 0f 00 00 00  a...............
+[ 3501.440164] len: 16
+[ 3501.440170] firewall_rx: data addrs data: ed0d5d30 sk: ee912600
+[ 3501.440176] 61 b7 a0 04 1f 00 00 00 f4 7f e6 bf 0f 00 00 00  a...............
+[ 3502.094175] DEBUG_INFO: clean_rule_base: called
+[ 3502.094180] DEBUG_INFO: clean_rule_base: freeing connection table.
+[ 3502.128367] Firewall module removed.

@@ -1,0 +1,1716 @@
+ packet process time: 45816 nano.
+[25931.851499] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 54.227.99.120 daddr: 10.0.0.6 sport: 21464 dport: 20480 reason: -4 no matching rule count: 1
+[25931.851552] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25931.851556] DEBUG_INFO: firewall_rx: TCP src_port: 55380 dst_port: 80 syn: 1 ack: 0
+[25931.851560] len: 16
+[25931.851564] firewall_rx: data addrs data: ec4fbb30 sk: f1fbf400
+[25931.851568] 00 00 00 00 00 00 00 00 00 87 4c f6 00 10 00 00  ..........L.....
+[25931.851572] DEBUG_INFO: enforce_rule_base: called
+[25931.851576] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.851581] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.851585] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.851589] firewall_rx: handle_tcp_chain() failed.
+[25931.851596] DEBUG_INFO: firewall_rx: packet process time: 45257 nano.
+[25931.851605] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 54.227.99.120 daddr: 10.0.0.6 sport: 21720 dport: 20480 reason: -4 no matching rule count: 1
+[25931.851657] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25931.851661] DEBUG_INFO: firewall_rx: TCP src_port: 55381 dst_port: 80 syn: 1 ack: 0
+[25931.851665] len: 16
+[25931.851669] firewall_rx: data addrs data: ec4fb930 sk: f1fbe280
+[25931.851673] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.851677] DEBUG_INFO: enforce_rule_base: called
+[25931.851681] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.851686] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.851690] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.851694] firewall_rx: handle_tcp_chain() failed.
+[25931.851701] DEBUG_INFO: firewall_rx: packet process time: 45257 nano.
+[25931.851710] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 54.227.99.120 daddr: 10.0.0.6 sport: 21976 dport: 20480 reason: -4 no matching rule count: 1
+[25931.856448] DEBUG_INFO: firewall_rx: Received: 10.0.0.138 -> 10.0.0.6 from dev: eth0
+[25931.856451] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 7548
+[25931.856460] DEBUG_INFO: enforce_rule_base: called
+[25931.856469] DEBUG_INFO: firewall_rx: packet process time: 23188 nano.
+[25931.856479] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 17 action: allow hooknum: 0 saddr: 10.0.0.6 daddr: 10.0.0.138 sport: 13568 dport: 31773 reason: -4 no matching rule count: 1
+[25931.856583] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25931.856588] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 60877
+[25931.856592] DEBUG_INFO: enforce_rule_base: called
+[25931.856597] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.856605] DEBUG_INFO: firewall_rx: packet process time: 23746 nano.
+[25931.856613] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.856625] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25931.856629] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 60877
+[25931.856634] DEBUG_INFO: enforce_rule_base: called
+[25931.856638] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.856646] DEBUG_INFO: firewall_rx: packet process time: 21232 nano.
+[25931.856654] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.856850] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25931.856855] DEBUG_INFO: firewall_rx: UDP src_port: 35376 dst_port: 53
+[25931.856859] DEBUG_INFO: enforce_rule_base: called
+[25931.856864] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.856873] DEBUG_INFO: firewall_rx: packet process time: 24584 nano.
+[25931.856881] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.856892] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25931.856898] DEBUG_INFO: firewall_rx: Received: 10.0.0.138 -> 10.0.0.6 from dev: eth0
+[25931.856903] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 62301
+[25931.856908] DEBUG_INFO: enforce_rule_base: called
+[25931.856912] DEBUG_INFO: firewall_rx: UDP src_port: 35376 dst_port: 53
+[25931.856917] DEBUG_INFO: firewall_rx: packet process time: 24026 nano.
+[25931.856922] DEBUG_INFO: enforce_rule_base: called
+[25931.856927] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 17 action: allow hooknum: 0 saddr: 10.0.0.6 daddr: 10.0.0.138 sport: 13568 dport: 24051 reason: -4 no matching rule count: 1
+[25931.856934] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.856942] DEBUG_INFO: firewall_rx: packet process time: 50845 nano.
+[25931.857398] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.857437] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25931.857442] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 47256
+[25931.857447] DEBUG_INFO: enforce_rule_base: called
+[25931.857452] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.857461] DEBUG_INFO: firewall_rx: packet process time: 24863 nano.
+[25931.857469] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.857481] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25931.857486] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 47256
+[25931.857491] DEBUG_INFO: enforce_rule_base: called
+[25931.857495] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.857504] DEBUG_INFO: firewall_rx: packet process time: 22908 nano.
+[25931.857512] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.857610] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 10.0.0.138 from dev: (null)
+[25931.857617] DEBUG_INFO: firewall_rx: UDP src_port: 17544 dst_port: 53
+[25931.857623] DEBUG_INFO: enforce_rule_base: called
+[25931.857634] DEBUG_INFO: firewall_rx: packet process time: 26261 nano.
+[25931.857648] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 17 action: allow hooknum: 3 saddr: 10.0.0.138 daddr: 10.0.0.6 sport: 34884 dport: 13568 reason: -4 no matching rule count: 1
+[25931.858086] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25931.858092] DEBUG_INFO: firewall_rx: TCP src_port: 48220 dst_port: 80 syn: 1 ack: 0
+[25931.858096] len: 16
+[25931.858101] firewall_rx: data addrs data: ec4fa330 sk: f1fbfb00
+[25931.858107] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.858113] DEBUG_INFO: enforce_rule_base: called
+[25931.858118] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.858124] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.858130] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.858134] firewall_rx: handle_tcp_chain() failed.
+[25931.858143] DEBUG_INFO: firewall_rx: packet process time: 59505 nano.
+[25931.858153] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 173.194.113.48 daddr: 10.0.0.6 sport: 23740 dport: 20480 reason: -4 no matching rule count: 1
+[25931.858222] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25931.858228] DEBUG_INFO: firewall_rx: TCP src_port: 48221 dst_port: 80 syn: 1 ack: 0
+[25931.858232] len: 16
+[25931.858237] firewall_rx: data addrs data: ec4fbd30 sk: f1fbf780
+[25931.858242] 6b a8 a8 bf 1f 00 00 00 f4 bf a8 bf 0f 00 00 00  k...............
+[25931.858246] DEBUG_INFO: enforce_rule_base: called
+[25931.858251] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.858256] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.858261] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.858266] firewall_rx: handle_tcp_chain() failed.
+[25931.858274] DEBUG_INFO: firewall_rx: packet process time: 52520 nano.
+[25931.858284] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 173.194.113.48 daddr: 10.0.0.6 sport: 23996 dport: 20480 reason: -4 no matching rule count: 1
+[25931.858349] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25931.858355] DEBUG_INFO: firewall_rx: TCP src_port: 48222 dst_port: 80 syn: 1 ack: 0
+[25931.858359] len: 16
+[25931.858363] firewall_rx: data addrs data: f749e530 sk: f1fbe980
+[25931.858368] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.858372] DEBUG_INFO: enforce_rule_base: called
+[25931.858377] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.858382] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.858387] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.858392] firewall_rx: handle_tcp_chain() failed.
+[25931.858400] DEBUG_INFO: firewall_rx: packet process time: 51682 nano.
+[25931.858410] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 173.194.113.48 daddr: 10.0.0.6 sport: 24252 dport: 20480 reason: -4 no matching rule count: 1
+[25931.872183] DEBUG_INFO: firewall_rx: Received: 10.0.0.138 -> 10.0.0.6 from dev: eth0
+[25931.872189] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 43885
+[25931.872194] DEBUG_INFO: enforce_rule_base: called
+[25931.872203] DEBUG_INFO: firewall_rx: packet process time: 22349 nano.
+[25931.872213] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 17 action: allow hooknum: 0 saddr: 10.0.0.6 daddr: 10.0.0.138 sport: 13568 dport: 28075 reason: -4 no matching rule count: 1
+[25931.872338] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25931.872344] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 49708
+[25931.872349] DEBUG_INFO: enforce_rule_base: called
+[25931.872353] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.872362] DEBUG_INFO: firewall_rx: packet process time: 26539 nano.
+[25931.872370] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.872383] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25931.872387] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 49708
+[25931.872392] DEBUG_INFO: enforce_rule_base: called
+[25931.872396] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.872404] DEBUG_INFO: firewall_rx: packet process time: 21512 nano.
+[25931.872411] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.874584] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25931.874590] DEBUG_INFO: firewall_rx: TCP src_port: 51743 dst_port: 80 syn: 1 ack: 0
+[25931.874594] len: 16
+[25931.874598] firewall_rx: data addrs data: f6da1930 sk: eff3f240
+[25931.874603] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.874607] DEBUG_INFO: enforce_rule_base: called
+[25931.874612] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.874618] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.874623] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.874627] firewall_rx: handle_tcp_chain() failed.
+[25931.874635] DEBUG_INFO: firewall_rx: packet process time: 53080 nano.
+[25931.874645] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.235.1.102 daddr: 10.0.0.6 sport: 8138 dport: 20480 reason: -4 no matching rule count: 1
+[25931.874705] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25931.874710] DEBUG_INFO: firewall_rx: TCP src_port: 51744 dst_port: 80 syn: 1 ack: 0
+[25931.874714] len: 16
+[25931.874718] firewall_rx: data addrs data: f6da1730 sk: eff3f400
+[25931.874722] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.874726] DEBUG_INFO: enforce_rule_base: called
+[25931.874730] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.874735] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.874740] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.874744] firewall_rx: handle_tcp_chain() failed.
+[25931.874751] DEBUG_INFO: firewall_rx: packet process time: 46654 nano.
+[25931.874760] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.235.1.102 daddr: 10.0.0.6 sport: 8394 dport: 20480 reason: -4 no matching rule count: 1
+[25931.874816] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25931.874820] DEBUG_INFO: firewall_rx: TCP src_port: 51745 dst_port: 80 syn: 1 ack: 0
+[25931.874824] len: 16
+[25931.874828] firewall_rx: data addrs data: f6da1d30 sk: eff3f5c0
+[25931.874833] 1e ab 41 03 1f 00 00 00 ed 7f fb bf 0f 00 00 00  ..A.............
+[25931.874837] DEBUG_INFO: enforce_rule_base: called
+[25931.874841] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.874845] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.874849] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.874854] firewall_rx: handle_tcp_chain() failed.
+[25931.874861] DEBUG_INFO: firewall_rx: packet process time: 46096 nano.
+[25931.874870] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.235.1.102 daddr: 10.0.0.6 sport: 8650 dport: 20480 reason: -4 no matching rule count: 1
+[25931.874926] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25931.874930] DEBUG_INFO: firewall_rx: TCP src_port: 51746 dst_port: 80 syn: 1 ack: 0
+[25931.874934] len: 16
+[25931.874938] firewall_rx: data addrs data: f6da0130 sk: eff3f780
+[25931.874942] 00 00 4a f7 00 00 00 00 00 00 00 00 ff ff ff ff  ..J.............
+[25931.874946] DEBUG_INFO: enforce_rule_base: called
+[25931.874950] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.874955] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.874959] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.874963] firewall_rx: handle_tcp_chain() failed.
+[25931.874971] DEBUG_INFO: firewall_rx: packet process time: 45816 nano.
+[25931.874979] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.235.1.102 daddr: 10.0.0.6 sport: 8906 dport: 20480 reason: -4 no matching rule count: 1
+[25931.875037] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25931.875042] DEBUG_INFO: firewall_rx: TCP src_port: 51747 dst_port: 80 syn: 1 ack: 0
+[25931.875046] len: 16
+[25931.875050] firewall_rx: data addrs data: f6da1130 sk: eff3f940
+[25931.875054] b5 79 78 09 06 00 00 00 f0 ff a5 bf 0f 00 00 00  .yx.............
+[25931.875058] DEBUG_INFO: enforce_rule_base: called
+[25931.875062] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.875067] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.875071] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.875075] firewall_rx: handle_tcp_chain() failed.
+[25931.875083] DEBUG_INFO: firewall_rx: packet process time: 46095 nano.
+[25931.875091] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.235.1.102 daddr: 10.0.0.6 sport: 9162 dport: 20480 reason: -4 no matching rule count: 1
+[25931.875146] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25931.875151] DEBUG_INFO: firewall_rx: TCP src_port: 51748 dst_port: 80 syn: 1 ack: 0
+[25931.875155] len: 16
+[25931.875158] firewall_rx: data addrs data: f6da0b30 sk: eff3fb00
+[25931.875163] b7 84 78 09 06 00 00 00 00 00 00 00 00 00 00 00  ..x.............
+[25931.875167] DEBUG_INFO: enforce_rule_base: called
+[25931.875171] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.875175] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.875179] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.875183] firewall_rx: handle_tcp_chain() failed.
+[25931.875191] DEBUG_INFO: firewall_rx: packet process time: 45816 nano.
+[25931.875200] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.235.1.102 daddr: 10.0.0.6 sport: 9418 dport: 20480 reason: -4 no matching rule count: 1
+[25931.882737] DEBUG_INFO: firewall_rx: Received: 10.0.0.138 -> 10.0.0.6 from dev: eth0
+[25931.882744] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 17544
+[25931.882748] DEBUG_INFO: enforce_rule_base: called
+[25931.882756] DEBUG_INFO: firewall_rx: packet process time: 22908 nano.
+[25931.882767] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 17 action: allow hooknum: 0 saddr: 10.0.0.6 daddr: 10.0.0.138 sport: 13568 dport: 34884 reason: -4 no matching rule count: 1
+[25931.882859] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25931.882864] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 35376
+[25931.882869] DEBUG_INFO: enforce_rule_base: called
+[25931.882873] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.882893] DEBUG_INFO: firewall_rx: packet process time: 35759 nano.
+[25931.882901] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.882915] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25931.882920] DEBUG_INFO: firewall_rx: UDP src_port: 53 dst_port: 35376
+[25931.882924] DEBUG_INFO: enforce_rule_base: called
+[25931.882929] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25931.882937] DEBUG_INFO: firewall_rx: packet process time: 22070 nano.
+[25931.882945] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25931.883481] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25931.883486] DEBUG_INFO: firewall_rx: TCP src_port: 58650 dst_port: 80 syn: 1 ack: 0
+[25931.883490] len: 16
+[25931.883493] firewall_rx: data addrs data: ee5b8f30 sk: c0c16440
+[25931.883497] 00 20 4a f7 00 00 00 00 00 00 00 00 ff ff ff ff  . J.............
+[25931.883501] DEBUG_INFO: enforce_rule_base: called
+[25931.883504] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.883509] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.883514] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.883517] firewall_rx: handle_tcp_chain() failed.
+[25931.883523] DEBUG_INFO: firewall_rx: packet process time: 44419 nano.
+[25931.883531] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.179.154.242 daddr: 10.0.0.6 sport: 6885 dport: 20480 reason: -4 no matching rule count: 1
+[25931.883581] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25931.883585] DEBUG_INFO: firewall_rx: TCP src_port: 58651 dst_port: 80 syn: 1 ack: 0
+[25931.883588] len: 16
+[25931.883591] firewall_rx: data addrs data: ee5b8730 sk: c0c16600
+[25931.883595] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.883598] DEBUG_INFO: enforce_rule_base: called
+[25931.883601] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.883605] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.883609] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.883612] firewall_rx: handle_tcp_chain() failed.
+[25931.883617] DEBUG_INFO: firewall_rx: packet process time: 37155 nano.
+[25931.883624] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.179.154.242 daddr: 10.0.0.6 sport: 7141 dport: 20480 reason: -4 no matching rule count: 1
+[25931.883667] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25931.883671] DEBUG_INFO: firewall_rx: TCP src_port: 58652 dst_port: 80 syn: 1 ack: 0
+[25931.883674] len: 16
+[25931.883677] firewall_rx: data addrs data: ee5b8930 sk: c0c167c0
+[25931.883681] 54 61 62 20 2d 20 43 68 72 6f 6d 69 75 6d 41 03  Tab - ChromiumA.
+[25931.883684] DEBUG_INFO: enforce_rule_base: called
+[25931.883687] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.883691] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.883694] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.883697] firewall_rx: handle_tcp_chain() failed.
+[25931.883703] DEBUG_INFO: firewall_rx: packet process time: 36317 nano.
+[25931.883709] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.179.154.242 daddr: 10.0.0.6 sport: 7397 dport: 20480 reason: -4 no matching rule count: 1
+[25931.883758] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25931.883762] DEBUG_INFO: firewall_rx: TCP src_port: 58653 dst_port: 80 syn: 1 ack: 0
+[25931.883765] len: 16
+[25931.883768] firewall_rx: data addrs data: ee5b8330 sk: c0c16980
+[25931.883771] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.883774] DEBUG_INFO: enforce_rule_base: called
+[25931.883777] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.883782] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.883785] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.883788] firewall_rx: handle_tcp_chain() failed.
+[25931.883794] DEBUG_INFO: firewall_rx: packet process time: 36876 nano.
+[25931.883801] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 212.179.154.242 daddr: 10.0.0.6 sport: 7653 dport: 20480 reason: -4 no matching rule count: 1
+[25931.973449] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 81.218.31.170 from dev: (null)
+[25931.973456] DEBUG_INFO: firewall_rx: TCP src_port: 39960 dst_port: 80 syn: 1 ack: 0
+[25931.973461] len: 16
+[25931.973465] firewall_rx: data addrs data: f28ea530 sk: f1fbe600
+[25931.973471] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25931.973475] DEBUG_INFO: enforce_rule_base: called
+[25931.973480] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25931.973488] connection_table_add: conn_tab->hash or conn_node are null.
+[25931.973494] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25931.973498] firewall_rx: handle_tcp_chain() failed.
+[25931.973507] DEBUG_INFO: firewall_rx: packet process time: 62298 nano.
+[25931.973518] DEBUG_INFO: log_verdict_and_reason: modified: 1401467596 protocol: 6 action: allow hooknum: 3 saddr: 81.218.31.170 daddr: 10.0.0.6 sport: 6300 dport: 20480 reason: -4 no matching rule count: 1
+[25932.718049] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 81.218.31.170 from dev: (null)
+[25932.718080] DEBUG_INFO: firewall_rx: TCP src_port: 39918 dst_port: 80 syn: 1 ack: 0
+[25932.718103] len: 16
+[25932.718122] firewall_rx: data addrs data: f28eaf30 sk: f6d7b540
+[25932.718142] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.718159] DEBUG_INFO: enforce_rule_base: called
+[25932.718175] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.718196] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.718210] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.718224] firewall_rx: handle_tcp_chain() failed.
+[25932.718246] DEBUG_INFO: firewall_rx: packet process time: 221257 nano.
+[25932.756257] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25932.756272] DEBUG_INFO: firewall_rx: TCP src_port: 60662 dst_port: 80 syn: 1 ack: 0
+[25932.756282] len: 16
+[25932.756291] firewall_rx: data addrs data: f28ea130 sk: f6d7b480
+[25932.756302] 1b 67 fb bf 1f 00 00 00 ed 7f fb bf 0f 00 00 00  .g..............
+[25932.756312] DEBUG_INFO: enforce_rule_base: called
+[25932.756322] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.756337] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.756347] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.756357] firewall_rx: handle_tcp_chain() failed.
+[25932.756374] DEBUG_INFO: firewall_rx: packet process time: 123759 nano.
+[25932.772879] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25932.772903] DEBUG_INFO: firewall_rx: TCP src_port: 60663 dst_port: 80 syn: 1 ack: 0
+[25932.772921] len: 16
+[25932.772939] firewall_rx: data addrs data: f28ea330 sk: f6d7b840
+[25932.772956] 7b f1 87 bf 1f 00 00 00 f4 0f 88 bf 0f 00 00 00  {...............
+[25932.772971] DEBUG_INFO: enforce_rule_base: called
+[25932.772984] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.773004] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.773017] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.773029] firewall_rx: handle_tcp_chain() failed.
+[25932.773050] DEBUG_INFO: firewall_rx: packet process time: 188292 nano.
+[25932.780298] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25932.780313] DEBUG_INFO: firewall_rx: TCP src_port: 60664 dst_port: 80 syn: 1 ack: 0
+[25932.780323] len: 16
+[25932.780333] firewall_rx: data addrs data: f28ea730 sk: f6d7b6c0
+[25932.780344] 46 ab 41 03 00 00 00 00 00 bb 4d f6 00 10 00 00  F.A.......M.....
+[25932.780354] DEBUG_INFO: enforce_rule_base: called
+[25932.780365] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.780379] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.780390] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.780400] firewall_rx: handle_tcp_chain() failed.
+[25932.780419] DEBUG_INFO: firewall_rx: packet process time: 125155 nano.
+[25932.792359] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25932.792373] DEBUG_INFO: firewall_rx: TCP src_port: 60665 dst_port: 80 syn: 1 ack: 0
+[25932.792383] len: 16
+[25932.792393] firewall_rx: data addrs data: f28eb930 sk: f6d7b780
+[25932.792404] 44 ab 41 03 1f 00 00 00 f4 0f 88 bf 0f 00 00 00  D.A.............
+[25932.792414] DEBUG_INFO: enforce_rule_base: called
+[25932.792424] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.792439] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.792450] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.792460] firewall_rx: handle_tcp_chain() failed.
+[25932.792478] DEBUG_INFO: firewall_rx: packet process time: 125993 nano.
+[25932.808167] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25932.808181] DEBUG_INFO: firewall_rx: TCP src_port: 55358 dst_port: 80 syn: 1 ack: 0
+[25932.808191] len: 16
+[25932.808201] firewall_rx: data addrs data: f28eb330 sk: f6d7b0c0
+[25932.808212] 28 ab 41 03 00 00 00 00 00 00 00 00 00 00 00 00  (.A.............
+[25932.808223] DEBUG_INFO: enforce_rule_base: called
+[25932.808233] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.808334] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.808346] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.808356] firewall_rx: handle_tcp_chain() failed.
+[25932.808376] DEBUG_INFO: firewall_rx: packet process time: 213435 nano.
+[25932.820277] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25932.820292] DEBUG_INFO: firewall_rx: TCP src_port: 55359 dst_port: 80 syn: 1 ack: 0
+[25932.820303] len: 16
+[25932.820313] firewall_rx: data addrs data: f28eb730 sk: f6d7b300
+[25932.820325] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.820335] DEBUG_INFO: enforce_rule_base: called
+[25932.820346] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.820445] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.820458] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.820469] firewall_rx: handle_tcp_chain() failed.
+[25932.820492] DEBUG_INFO: firewall_rx: packet process time: 222375 nano.
+[25932.824301] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25932.824317] DEBUG_INFO: firewall_rx: TCP src_port: 55360 dst_port: 80 syn: 1 ack: 0
+[25932.824328] len: 16
+[25932.824338] firewall_rx: data addrs data: c0cb2d30 sk: f6d7b9c0
+[25932.824351] f9 74 41 03 90 ac 01 04 f1 4f 96 bf 0f 00 00 00  .tA......O......
+[25932.824362] DEBUG_INFO: enforce_rule_base: called
+[25932.824373] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.824471] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.824486] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.824499] firewall_rx: handle_tcp_chain() failed.
+[25932.824522] DEBUG_INFO: firewall_rx: packet process time: 227962 nano.
+[25932.841101] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 146.185.23.162 from dev: (null)
+[25932.841120] DEBUG_INFO: firewall_rx: TCP src_port: 54883 dst_port: 80 syn: 1 ack: 0
+[25932.841136] len: 16
+[25932.841153] firewall_rx: data addrs data: c0cb3330 sk: f6d7b900
+[25932.841168] f7 74 41 03 00 00 00 00 00 00 00 00 00 00 00 00  .tA.............
+[25932.841183] DEBUG_INFO: enforce_rule_base: called
+[25932.841196] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.841231] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.841243] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.841254] firewall_rx: handle_tcp_chain() failed.
+[25932.841275] DEBUG_INFO: firewall_rx: packet process time: 184661 nano.
+[25932.848270] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 146.185.23.162 from dev: (null)
+[25932.848284] DEBUG_INFO: firewall_rx: TCP src_port: 54884 dst_port: 80 syn: 1 ack: 0
+[25932.848295] len: 16
+[25932.848306] firewall_rx: data addrs data: ec498130 sk: f2ab6840
+[25932.848318] 1b a5 83 bf 1f 00 00 00 f4 af 83 bf 0f 00 00 00  ................
+[25932.848330] DEBUG_INFO: enforce_rule_base: called
+[25932.848341] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.848480] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.848492] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.848503] firewall_rx: handle_tcp_chain() failed.
+[25932.848524] DEBUG_INFO: firewall_rx: packet process time: 260089 nano.
+[25932.848562] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 146.185.23.162 from dev: (null)
+[25932.848574] DEBUG_INFO: firewall_rx: TCP src_port: 54885 dst_port: 80 syn: 1 ack: 0
+[25932.848584] len: 16
+[25932.848594] firewall_rx: data addrs data: ec499330 sk: f2ab6d80
+[25932.848605] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.848615] DEBUG_INFO: enforce_rule_base: called
+[25932.848626] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.848638] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.848649] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.848660] firewall_rx: handle_tcp_chain() failed.
+[25932.848679] DEBUG_INFO: firewall_rx: packet process time: 118172 nano.
+[25932.848716] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 192.118.68.138 from dev: (null)
+[25932.848729] DEBUG_INFO: firewall_rx: TCP src_port: 33872 dst_port: 80 syn: 1 ack: 0
+[25932.848739] len: 16
+[25932.848750] firewall_rx: data addrs data: ec498f30 sk: f2ab6780
+[25932.848763] 00 00 00 00 00 00 00 00 40 10 4d f6 00 10 00 00  ........@.M.....
+[25932.848777] DEBUG_INFO: enforce_rule_base: called
+[25932.848790] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.848808] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.848822] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.848836] firewall_rx: handle_tcp_chain() failed.
+[25932.849050] DEBUG_INFO: firewall_rx: packet process time: 333561 nano.
+[25932.849091] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 192.118.68.138 from dev: (null)
+[25932.849104] DEBUG_INFO: firewall_rx: TCP src_port: 33873 dst_port: 80 syn: 1 ack: 0
+[25932.849114] len: 16
+[25932.849124] firewall_rx: data addrs data: ec498730 sk: eef1e000
+[25932.849136] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.849147] DEBUG_INFO: enforce_rule_base: called
+[25932.849157] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.849170] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.849182] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.849193] firewall_rx: handle_tcp_chain() failed.
+[25932.849214] DEBUG_INFO: firewall_rx: packet process time: 123759 nano.
+[25932.849252] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 192.118.68.138 from dev: (null)
+[25932.849263] DEBUG_INFO: firewall_rx: TCP src_port: 33874 dst_port: 80 syn: 1 ack: 0
+[25932.849274] len: 16
+[25932.849284] firewall_rx: data addrs data: ec499130 sk: ee619240
+[25932.849294] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.849305] DEBUG_INFO: enforce_rule_base: called
+[25932.849315] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.849327] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.849337] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.849349] firewall_rx: handle_tcp_chain() failed.
+[25932.849369] DEBUG_INFO: firewall_rx: packet process time: 119289 nano.
+[25932.849405] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.25.95.134 from dev: (null)
+[25932.849418] DEBUG_INFO: firewall_rx: TCP src_port: 42208 dst_port: 80 syn: 1 ack: 0
+[25932.849428] len: 16
+[25932.849438] firewall_rx: data addrs data: ec499d30 sk: ec4b2cc0
+[25932.849449] 1b a5 83 bf 1f 00 00 00 f4 af 83 bf 0f 00 00 00  ................
+[25932.849459] DEBUG_INFO: enforce_rule_base: called
+[25932.849470] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.849482] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.849493] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.849504] firewall_rx: handle_tcp_chain() failed.
+[25932.849523] DEBUG_INFO: firewall_rx: packet process time: 119847 nano.
+[25932.849559] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.25.95.134 from dev: (null)
+[25932.849570] DEBUG_INFO: firewall_rx: TCP src_port: 42209 dst_port: 80 syn: 1 ack: 0
+[25932.849580] len: 16
+[25932.849590] firewall_rx: data addrs data: f67b3730 sk: ec4b2a80
+[25932.849600] 0b 73 41 03 94 ac 01 04 00 00 00 00 00 00 00 00  .sA.............
+[25932.849611] DEBUG_INFO: enforce_rule_base: called
+[25932.849620] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.849632] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.849643] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.849654] firewall_rx: handle_tcp_chain() failed.
+[25932.849674] DEBUG_INFO: firewall_rx: packet process time: 116216 nano.
+[25932.849711] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.25.95.134 from dev: (null)
+[25932.849722] DEBUG_INFO: firewall_rx: TCP src_port: 42210 dst_port: 80 syn: 1 ack: 0
+[25932.849733] len: 16
+[25932.849743] firewall_rx: data addrs data: c0c69930 sk: ec4b2600
+[25932.849754] 39 63 41 03 1f 00 00 00 f1 af b7 bf 0f 00 00 00  9cA.............
+[25932.849765] DEBUG_INFO: enforce_rule_base: called
+[25932.849775] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.849787] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.849798] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.849809] firewall_rx: handle_tcp_chain() failed.
+[25932.849828] DEBUG_INFO: firewall_rx: packet process time: 120406 nano.
+[25932.849862] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.25.95.134 from dev: (null)
+[25932.849873] DEBUG_INFO: firewall_rx: TCP src_port: 42211 dst_port: 80 syn: 1 ack: 0
+[25932.849883] len: 16
+[25932.849893] firewall_rx: data addrs data: c0c69130 sk: ec4b2180
+[25932.849903] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.849914] DEBUG_INFO: enforce_rule_base: called
+[25932.849924] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.849937] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.849949] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.849962] firewall_rx: handle_tcp_chain() failed.
+[25932.849988] DEBUG_INFO: firewall_rx: packet process time: 126553 nano.
+[25932.850023] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.25.95.134 from dev: (null)
+[25932.850035] DEBUG_INFO: firewall_rx: TCP src_port: 42212 dst_port: 80 syn: 1 ack: 0
+[25932.850046] len: 16
+[25932.850056] firewall_rx: data addrs data: c0c68d30 sk: ec4b2000
+[25932.850067] 4d 63 41 03 1f 00 00 00 ee ff e1 bf 0f 00 00 00  McA.............
+[25932.850077] DEBUG_INFO: enforce_rule_base: called
+[25932.850087] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.850099] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.850109] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.850121] firewall_rx: handle_tcp_chain() failed.
+[25932.850142] DEBUG_INFO: firewall_rx: packet process time: 119289 nano.
+[25932.850180] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.25.95.134 from dev: (null)
+[25932.850192] DEBUG_INFO: firewall_rx: TCP src_port: 42213 dst_port: 80 syn: 1 ack: 0
+[25932.850202] len: 16
+[25932.850212] firewall_rx: data addrs data: c0c68330 sk: ec4b2480
+[25932.850223] 3b 63 41 03 1f 00 00 00 ee 3f 88 bf 0f 00 00 00  ;cA......?......
+[25932.850233] DEBUG_INFO: enforce_rule_base: called
+[25932.850244] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.850256] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.850266] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.850277] firewall_rx: handle_tcp_chain() failed.
+[25932.850296] DEBUG_INFO: firewall_rx: packet process time: 117054 nano.
+[25932.850333] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 199.203.85.10 from dev: (null)
+[25932.850343] DEBUG_INFO: firewall_rx: TCP src_port: 33915 dst_port: 80 syn: 1 ack: 0
+[25932.850353] len: 16
+[25932.850363] firewall_rx: data addrs data: e8249f30 sk: ec4b2900
+[25932.850374] 9b 3d fb bf 1f 00 00 00 ee 5f fb bf 0f 00 00 00  .=......._......
+[25932.850385] DEBUG_INFO: enforce_rule_base: called
+[25932.850395] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.850407] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.850418] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.850428] firewall_rx: handle_tcp_chain() failed.
+[25932.850452] DEBUG_INFO: firewall_rx: packet process time: 119569 nano.
+[25932.850488] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 199.203.85.10 from dev: (null)
+[25932.850499] DEBUG_INFO: firewall_rx: TCP src_port: 33916 dst_port: 80 syn: 1 ack: 0
+[25932.850509] len: 16
+[25932.850519] firewall_rx: data addrs data: ee6a3530 sk: ec4b2b40
+[25932.850529] 9b 48 ac bf 1f 00 00 00 f4 5f ac bf 0f 00 00 00  .H......._......
+[25932.850540] DEBUG_INFO: enforce_rule_base: called
+[25932.850550] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.850561] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.850572] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.850582] firewall_rx: handle_tcp_chain() failed.
+[25932.850602] DEBUG_INFO: firewall_rx: packet process time: 114540 nano.
+[25932.850639] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 199.203.85.10 from dev: (null)
+[25932.850651] DEBUG_INFO: firewall_rx: TCP src_port: 33917 dst_port: 80 syn: 1 ack: 0
+[25932.850662] len: 16
+[25932.850671] firewall_rx: data addrs data: ee6a3f30 sk: ec4b26c0
+[25932.850683] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.850693] DEBUG_INFO: enforce_rule_base: called
+[25932.850703] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.850716] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.850726] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.850737] firewall_rx: handle_tcp_chain() failed.
+[25932.850757] DEBUG_INFO: firewall_rx: packet process time: 119289 nano.
+[25932.850792] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 199.203.85.10 from dev: (null)
+[25932.850804] DEBUG_INFO: firewall_rx: TCP src_port: 33918 dst_port: 80 syn: 1 ack: 0
+[25932.850814] len: 16
+[25932.850824] firewall_rx: data addrs data: f6ccfd30 sk: f6e90b40
+[25932.850834] 85 ca 40 03 1f 00 00 00 f1 2f c6 bf 0f 00 00 00  ..@....../......
+[25932.850844] DEBUG_INFO: enforce_rule_base: called
+[25932.850854] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.850865] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.850875] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.850885] firewall_rx: handle_tcp_chain() failed.
+[25932.850904] DEBUG_INFO: firewall_rx: packet process time: 112864 nano.
+[25932.850939] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 199.203.85.10 from dev: (null)
+[25932.850952] DEBUG_INFO: firewall_rx: TCP src_port: 33919 dst_port: 80 syn: 1 ack: 0
+[25932.850969] len: 16
+[25932.850980] firewall_rx: data addrs data: edc5a930 sk: f6e900c0
+[25932.850990] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.851000] DEBUG_INFO: enforce_rule_base: called
+[25932.851010] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.851022] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.851032] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.851042] firewall_rx: handle_tcp_chain() failed.
+[25932.851061] DEBUG_INFO: firewall_rx: packet process time: 123200 nano.
+[25932.851095] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 199.203.85.10 from dev: (null)
+[25932.851106] DEBUG_INFO: firewall_rx: TCP src_port: 33920 dst_port: 80 syn: 1 ack: 0
+[25932.851115] len: 16
+[25932.851125] firewall_rx: data addrs data: f2aa0330 sk: f6e909c0
+[25932.851135] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.851145] DEBUG_INFO: enforce_rule_base: called
+[25932.851154] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.851165] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.851176] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.851188] firewall_rx: handle_tcp_chain() failed.
+[25932.851212] DEBUG_INFO: firewall_rx: packet process time: 115937 nano.
+[25932.851252] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25932.851263] DEBUG_INFO: firewall_rx: TCP src_port: 55379 dst_port: 80 syn: 1 ack: 0
+[25932.851272] len: 16
+[25932.851282] firewall_rx: data addrs data: f6da0730 sk: f6e90d80
+[25932.851292] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.851302] DEBUG_INFO: enforce_rule_base: called
+[25932.851311] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.851323] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.851333] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.851343] firewall_rx: handle_tcp_chain() failed.
+[25932.851362] DEBUG_INFO: firewall_rx: packet process time: 111746 nano.
+[25932.851394] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25932.851405] DEBUG_INFO: firewall_rx: TCP src_port: 55380 dst_port: 80 syn: 1 ack: 0
+[25932.851414] len: 16
+[25932.851424] firewall_rx: data addrs data: f6da1330 sk: f6e903c0
+[25932.851434] bb 0c b7 bf 1f 00 00 00 f4 2f b7 bf 0f 00 00 00  ........./......
+[25932.851444] DEBUG_INFO: enforce_rule_base: called
+[25932.851453] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.851464] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.851475] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.851485] firewall_rx: handle_tcp_chain() failed.
+[25932.851503] DEBUG_INFO: firewall_rx: packet process time: 110349 nano.
+[25932.851536] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 54.227.99.120 from dev: (null)
+[25932.851547] DEBUG_INFO: firewall_rx: TCP src_port: 55381 dst_port: 80 syn: 1 ack: 0
+[25932.851557] len: 16
+[25932.851566] firewall_rx: data addrs data: f6da0f30 sk: e8203f00
+[25932.851576] 00 00 00 00 00 00 00 00 60 1a 4d f6 00 10 00 00  ........`.M.....
+[25932.851586] DEBUG_INFO: enforce_rule_base: called
+[25932.851595] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.851607] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.851617] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.851627] firewall_rx: handle_tcp_chain() failed.
+[25932.851645] DEBUG_INFO: firewall_rx: packet process time: 110349 nano.
+[25932.856848] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25932.856862] DEBUG_INFO: firewall_rx: TCP src_port: 48220 dst_port: 80 syn: 1 ack: 0
+[25932.856873] len: 16
+[25932.856883] firewall_rx: data addrs data: f6da1b30 sk: e82036c0
+[25932.856894] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.856906] DEBUG_INFO: enforce_rule_base: called
+[25932.856916] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.856930] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.856941] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.856952] firewall_rx: handle_tcp_chain() failed.
+[25932.856973] DEBUG_INFO: firewall_rx: packet process time: 127670 nano.
+[25932.857010] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25932.857022] DEBUG_INFO: firewall_rx: TCP src_port: 48221 dst_port: 80 syn: 1 ack: 0
+[25932.857032] len: 16
+[25932.857042] firewall_rx: data addrs data: f6da0930 sk: e8203c00
+[25932.857054] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.857064] DEBUG_INFO: enforce_rule_base: called
+[25932.857074] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.857087] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.857097] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.857108] firewall_rx: handle_tcp_chain() failed.
+[25932.857129] DEBUG_INFO: firewall_rx: packet process time: 119568 nano.
+[25932.857166] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25932.857177] DEBUG_INFO: firewall_rx: TCP src_port: 48222 dst_port: 80 syn: 1 ack: 0
+[25932.857188] len: 16
+[25932.857197] firewall_rx: data addrs data: f6da0d30 sk: e82030c0
+[25932.857208] bb 0c b7 bf 1f 00 00 00 f4 2f b7 bf 0f 00 00 00  ........./......
+[25932.857219] DEBUG_INFO: enforce_rule_base: called
+[25932.857229] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.857242] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.857252] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.857263] firewall_rx: handle_tcp_chain() failed.
+[25932.857284] DEBUG_INFO: firewall_rx: packet process time: 119568 nano.
+[25932.872293] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25932.872308] DEBUG_INFO: firewall_rx: TCP src_port: 51743 dst_port: 80 syn: 1 ack: 0
+[25932.872319] len: 16
+[25932.872329] firewall_rx: data addrs data: efec6f30 sk: e8267f00
+[25932.872341] 3a ab 41 03 1f 00 00 00 ee 1f e0 bf 0f 00 00 00  :.A.............
+[25932.872352] DEBUG_INFO: enforce_rule_base: called
+[25932.872363] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.872379] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.872391] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.872402] firewall_rx: handle_tcp_chain() failed.
+[25932.872422] DEBUG_INFO: firewall_rx: packet process time: 136051 nano.
+[25932.872461] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25932.872473] DEBUG_INFO: firewall_rx: TCP src_port: 51744 dst_port: 80 syn: 1 ack: 0
+[25932.872484] len: 16
+[25932.872494] firewall_rx: data addrs data: efec7330 sk: e82676c0
+[25932.872505] 4e ab 41 03 1f 00 00 00 f4 2f b7 bf 0f 00 00 00  N.A....../......
+[25932.872515] DEBUG_INFO: enforce_rule_base: called
+[25932.872525] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.872537] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.872548] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.872558] firewall_rx: handle_tcp_chain() failed.
+[25932.872577] DEBUG_INFO: firewall_rx: packet process time: 117892 nano.
+[25932.872614] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25932.872626] DEBUG_INFO: firewall_rx: TCP src_port: 51745 dst_port: 80 syn: 1 ack: 0
+[25932.872636] len: 16
+[25932.872645] firewall_rx: data addrs data: f6e19530 sk: e8267840
+[25932.872656] 01 00 00 00 02 00 00 00 ff ff ff ff 00 00 00 00  ................
+[25932.872667] DEBUG_INFO: enforce_rule_base: called
+[25932.872677] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.872689] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.872700] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.872711] firewall_rx: handle_tcp_chain() failed.
+[25932.872731] DEBUG_INFO: firewall_rx: packet process time: 117892 nano.
+[25932.872768] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25932.872771] DEBUG_INFO: firewall_rx: TCP src_port: 51746 dst_port: 80 syn: 1 ack: 0
+[25932.872810] len: 16
+[25932.872819] firewall_rx: data addrs data: f6e18330 sk: e8267900
+[25932.872830] 01 00 00 00 02 00 00 00 ff ff ff ff 00 00 00 00  ................
+[25932.872841] DEBUG_INFO: enforce_rule_base: called
+[25932.872851] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.872863] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.872875] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.872886] firewall_rx: handle_tcp_chain() failed.
+[25932.872907] DEBUG_INFO: firewall_rx: packet process time: 141917 nano.
+[25932.872945] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25932.872957] DEBUG_INFO: firewall_rx: TCP src_port: 51747 dst_port: 80 syn: 1 ack: 0
+[25932.872968] len: 16
+[25932.872978] firewall_rx: data addrs data: f6e18d30 sk: e8267e40
+[25932.872990] 01 00 00 00 02 00 00 00 ff ff ff ff 00 00 00 00  ................
+[25932.873000] DEBUG_INFO: enforce_rule_base: called
+[25932.873010] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.873022] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.873033] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.873043] firewall_rx: handle_tcp_chain() failed.
+[25932.873063] DEBUG_INFO: firewall_rx: packet process time: 119010 nano.
+[25932.873101] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.235.1.102 from dev: (null)
+[25932.873112] DEBUG_INFO: firewall_rx: TCP src_port: 51748 dst_port: 80 syn: 1 ack: 0
+[25932.873123] len: 16
+[25932.873134] firewall_rx: data addrs data: f6e19d30 sk: e8267a80
+[25932.873146] 01 00 00 00 02 00 00 00 ff ff ff ff 00 00 00 00  ................
+[25932.873157] DEBUG_INFO: enforce_rule_base: called
+[25932.873167] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.873179] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.873190] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.873200] firewall_rx: handle_tcp_chain() failed.
+[25932.873242] DEBUG_INFO: firewall_rx: packet process time: 120686 nano.
+[25932.880248] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25932.880262] DEBUG_INFO: firewall_rx: TCP src_port: 58650 dst_port: 80 syn: 1 ack: 0
+[25932.880272] len: 16
+[25932.880282] firewall_rx: data addrs data: ee5b9730 sk: edfc59c0
+[25932.880293] 00 20 4a f7 00 00 00 00 00 00 00 00 ff ff ff ff  . J.............
+[25932.880303] DEBUG_INFO: enforce_rule_base: called
+[25932.880312] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.880326] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.880337] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.880346] firewall_rx: handle_tcp_chain() failed.
+[25932.880365] DEBUG_INFO: firewall_rx: packet process time: 121245 nano.
+[25932.880404] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25932.880415] DEBUG_INFO: firewall_rx: TCP src_port: 58651 dst_port: 80 syn: 1 ack: 0
+[25932.880424] len: 16
+[25932.880433] firewall_rx: data addrs data: ee5b9530 sk: edfc5540
+[25932.880444] 7a ab 41 03 1f 00 00 00 d1 6f b5 bf 0f 00 00 00  z.A......o......
+[25932.880453] DEBUG_INFO: enforce_rule_base: called
+[25932.880463] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.880475] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.880485] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.880494] firewall_rx: handle_tcp_chain() failed.
+[25932.880560] DEBUG_INFO: firewall_rx: packet process time: 101969 nano.
+[25932.880602] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25932.880614] DEBUG_INFO: firewall_rx: TCP src_port: 58652 dst_port: 80 syn: 1 ack: 0
+[25932.880625] len: 16
+[25932.880634] firewall_rx: data addrs data: ee5b9330 sk: edfc5cc0
+[25932.880645] 78 ab 41 03 00 00 00 00 00 00 00 00 ff ff ff ff  x.A.............
+[25932.880655] DEBUG_INFO: enforce_rule_base: called
+[25932.880690] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.880702] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.880712] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.880722] firewall_rx: handle_tcp_chain() failed.
+[25932.880742] DEBUG_INFO: firewall_rx: packet process time: 142196 nano.
+[25932.880779] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 212.179.154.242 from dev: (null)
+[25932.880790] DEBUG_INFO: firewall_rx: TCP src_port: 58653 dst_port: 80 syn: 1 ack: 0
+[25932.880800] len: 16
+[25932.880809] firewall_rx: data addrs data: ee5b8530 sk: edfc5240
+[25932.880820] 72 ab 41 03 1f 00 00 00 ee 9f aa bf 0f 00 00 00  r.A.............
+[25932.880830] DEBUG_INFO: enforce_rule_base: called
+[25932.880839] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.880851] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.880861] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.880871] firewall_rx: handle_tcp_chain() failed.
+[25932.880890] DEBUG_INFO: firewall_rx: packet process time: 112585 nano.
+[25932.972174] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 81.218.31.170 from dev: (null)
+[25932.972181] DEBUG_INFO: firewall_rx: TCP src_port: 39960 dst_port: 80 syn: 1 ack: 0
+[25932.972185] len: 16
+[25932.972190] firewall_rx: data addrs data: eecd5b30 sk: f2ab6b40
+[25932.972195] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25932.972200] DEBUG_INFO: enforce_rule_base: called
+[25932.972204] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25932.972212] connection_table_add: conn_tab->hash or conn_node are null.
+[25932.972217] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25932.972222] firewall_rx: handle_tcp_chain() failed.
+[25932.972229] DEBUG_INFO: firewall_rx: packet process time: 59784 nano.
+[25945.736147] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25945.736155] DEBUG_INFO: firewall_rx: TCP src_port: 42873 dst_port: 7337 syn: 1 ack: 0
+[25945.736160] len: 16
+[25945.736164] firewall_rx: data addrs data: f23e2530 sk: f1fbf940
+[25945.736171] 5b df 8b bf 1f 00 00 00 ef ff 8b bf 0f 00 00 00  [...............
+[25945.736176] DEBUG_INFO: enforce_rule_base: called
+[25945.736180] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25945.736188] DEBUG_INFO: firewall_rx: packet process time: 47772 nano.
+[25945.736196] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.736212] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25945.736216] DEBUG_INFO: firewall_rx: TCP src_port: 42873 dst_port: 7337 syn: 1 ack: 0
+[25945.736221] len: 16
+[25945.736224] firewall_rx: data addrs data: f23e2530 sk: f1fbf940
+[25945.736229] 5b df 8b bf 1f 00 00 00 ef ff 8b bf 0f 00 00 00  [...............
+[25945.736233] DEBUG_INFO: enforce_rule_base: called
+[25945.736237] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25945.736245] DEBUG_INFO: firewall_rx: packet process time: 33244 nano.
+[25945.736252] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.736266] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25945.736270] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42873 syn: 0 ack: 1
+[25945.736274] len: 264
+[25945.736278] firewall_rx: data addrs data: f23e2a38 sk: ec4bd300
+[25945.736282] 00 00 00 00 10 00 10 00 3b 03 05 00 38 00 40 03  ........;...8.@.
+[25945.736286] 00 00 00 00 00 00 00 00 10 00 10 00 46 6d 05 00  ............Fm..
+[25945.736291] da af 41 03 38 00 40 03 a0 ff ea ff ed 02 8e 02  ..A.8.@.........
+[25945.736295] 38 af 04 00 38 00 40 03 00 00 08 00 00 00 00 00  8...8.@.........
+[25945.736299] 95 08 09 00 03 6f 04 00 10 01 40 03 00 00 00 00  .....o....@.....
+[25945.736303] db af 41 03 60 00 16 00 00 00 00 00 00 00 00 00  ..A.`...........
+[25945.736307] 10 00 10 00 95 08 09 00 03 00 16 00 91 01 40 03  ..............@.
+[25945.736311] 00 00 00 00 db af 41 03 60 00 07 00 00 00 00 00  ......A.`.......
+[25945.736316] 00 00 00 00 10 00 10 00 95 08 09 00 03 00 07 00  ................
+[25945.736320] 96 02 40 03 00 00 00 00 db af 41 03 60 05 00 00  ..@.......A.`...
+[25945.736324] 00 00 00 00 00 00 00 00 10 00 10 00 95 07 02 00  ................
+[25945.736328] db af 41 03 3b 03 05 00 32 00 40 03 00 00 00 00  ..A.;...2.@.....
+[25945.736332] 60 00 16 00 10 00 10 00 3e 03 07 00 da af 41 03  `.......>.....A.
+[25945.736336] 2e 00 40 03 32 00 40 03 00 00 00 00 60 00 16 00  ..@.2.@.....`...
+[25945.736340] 10 00 10 00 38 00 04 00 32 00 40 03 00 00 08 00  ....8...2.@.....
+[25945.736345] 00 00 00 00 36 00 02 00 da af 41 03 00 00 00 00  ....6.....A.....
+[25945.736349] 00 00 00 00 00 00 00 00                          ........
+[25945.736356] DEBUG_INFO: firewall_rx: packet process time: 91074 nano.
+[25945.736363] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.736373] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25945.736378] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42873 syn: 0 ack: 1
+[25945.736382] len: 264
+[25945.736386] firewall_rx: data addrs data: f23e2a38 sk: ec4bd300
+[25945.736390] 00 00 00 00 10 00 10 00 3b 03 05 00 38 00 40 03  ........;...8.@.
+[25945.736394] 00 00 00 00 00 00 00 00 10 00 10 00 46 6d 05 00  ............Fm..
+[25945.736398] da af 41 03 38 00 40 03 a0 ff ea ff ed 02 8e 02  ..A.8.@.........
+[25945.736402] 38 af 04 00 38 00 40 03 00 00 08 00 00 00 00 00  8...8.@.........
+[25945.736406] 95 08 09 00 03 6f 04 00 10 01 40 03 00 00 00 00  .....o....@.....
+[25945.736410] db af 41 03 60 00 16 00 00 00 00 00 00 00 00 00  ..A.`...........
+[25945.736415] 10 00 10 00 95 08 09 00 03 00 16 00 91 01 40 03  ..............@.
+[25945.736419] 00 00 00 00 db af 41 03 60 00 07 00 00 00 00 00  ......A.`.......
+[25945.736423] 00 00 00 00 10 00 10 00 95 08 09 00 03 00 07 00  ................
+[25945.736427] 96 02 40 03 00 00 00 00 db af 41 03 60 05 00 00  ..@.......A.`...
+[25945.736431] 00 00 00 00 00 00 00 00 10 00 10 00 95 07 02 00  ................
+[25945.736435] db af 41 03 3b 03 05 00 32 00 40 03 00 00 00 00  ..A.;...2.@.....
+[25945.736440] 60 00 16 00 10 00 10 00 3e 03 07 00 da af 41 03  `.......>.....A.
+[25945.736444] 2e 00 40 03 32 00 40 03 00 00 00 00 60 00 16 00  ..@.2.@.....`...
+[25945.736460] 10 00 10 00 38 00 04 00 32 00 40 03 00 00 08 00  ....8...2.@.....
+[25945.736465] 00 00 00 00 36 00 02 00 da af 41 03 00 00 00 00  ....6.....A.....
+[25945.736470] 00 00 00 00 00 00 00 00                          ........
+[25945.736478] DEBUG_INFO: firewall_rx: packet process time: 104203 nano.
+[25945.736485] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.769048] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25945.769059] DEBUG_INFO: firewall_rx: TCP src_port: 42874 dst_port: 7337 syn: 1 ack: 0
+[25945.769065] len: 16
+[25945.769071] firewall_rx: data addrs data: c0c2d130 sk: eff3fcc0
+[25945.769081] 0a af 41 03 1f 00 00 00 ed 7f fb bf 0f 00 00 00  ..A.............
+[25945.769087] DEBUG_INFO: enforce_rule_base: called
+[25945.769094] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25945.769104] DEBUG_INFO: firewall_rx: packet process time: 65372 nano.
+[25945.769113] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.769129] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25945.769134] DEBUG_INFO: firewall_rx: TCP src_port: 42874 dst_port: 7337 syn: 1 ack: 0
+[25945.769139] len: 16
+[25945.769143] firewall_rx: data addrs data: c0c2d130 sk: eff3fcc0
+[25945.769147] 0a af 41 03 1f 00 00 00 ed 7f fb bf 0f 00 00 00  ..A.............
+[25945.769152] DEBUG_INFO: enforce_rule_base: called
+[25945.769156] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25945.769164] DEBUG_INFO: firewall_rx: packet process time: 36318 nano.
+[25945.769172] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.769187] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25945.769192] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42874 syn: 0 ack: 1
+[25945.769196] len: 264
+[25945.769200] firewall_rx: data addrs data: c0c2d438 sk: eee26c00
+[25945.769205] 00 00 00 00 00 00 00 00 1c 00 f0 cc 2e 00 40 03  ..............@.
+[25945.769210] 1f 01 00 00 5e e2 8b 01 00 00 00 00 00 00 00 00  ....^...........
+[25945.769214] 00 00 00 00 00 00 00 00 1c 00 f0 cc 2e 00 40 03  ..............@.
+[25945.769219] 25 00 00 00 5e e2 8b 01 00 00 00 00 00 00 00 00  %...^...........
+[25945.769223] 00 00 00 00 00 00 00 00 10 01 40 03 00 00 00 00  ..........@.....
+[25945.769228] bd ae 41 03 60 00 16 00 00 00 00 00 00 00 00 00  ..A.`...........
+[25945.769233] 10 00 10 00 95 08 09 00 03 00 16 00 91 01 40 03  ..............@.
+[25945.769237] 00 00 00 00 bd ae 41 03 60 00 07 00 00 00 00 00  ......A.`.......
+[25945.769241] 00 00 00 00 10 00 10 00 95 08 09 00 03 00 07 00  ................
+[25945.769246] 96 02 40 03 00 00 00 00 bd ae 41 03 b0 0a 00 00  ..@.......A.....
+[25945.769251] 00 00 00 00 00 00 00 00 10 00 10 00 95 07 02 00  ................
+[25945.769255] bd ae 41 03 3b 03 05 00 32 00 40 03 00 00 00 00  ..A.;...2.@.....
+[25945.769260] 60 00 16 00 10 00 10 00 3e 03 07 00 bc ae 41 03  `.......>.....A.
+[25945.769264] 2e 00 40 03 32 00 40 03 00 00 00 00 60 00 16 00  ..@.2.@.....`...
+[25945.769269] 10 00 10 00 38 00 04 00 32 00 40 03 00 00 08 00  ....8...2.@.....
+[25945.769273] 00 00 00 00 36 00 02 00 bc ae 41 03 00 00 00 00  ....6.....A.....
+[25945.769278] 00 00 00 00 00 00 00 00                          ........
+[25945.769286] DEBUG_INFO: firewall_rx: packet process time: 99454 nano.
+[25945.769294] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25945.769306] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25945.769311] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42874 syn: 0 ack: 1
+[25945.769315] len: 264
+[25945.769319] firewall_rx: data addrs data: c0c2d438 sk: eee26c00
+[25945.769323] 00 00 00 00 00 00 00 00 1c 00 f0 cc 2e 00 40 03  ..............@.
+[25945.769328] 1f 01 00 00 5e e2 8b 01 00 00 00 00 00 00 00 00  ....^...........
+[25945.769332] 00 00 00 00 00 00 00 00 1c 00 f0 cc 2e 00 40 03  ..............@.
+[25945.769337] 25 00 00 00 5e e2 8b 01 00 00 00 00 00 00 00 00  %...^...........
+[25945.769341] 00 00 00 00 00 00 00 00 10 01 40 03 00 00 00 00  ..........@.....
+[25945.769345] bd ae 41 03 60 00 16 00 00 00 00 00 00 00 00 00  ..A.`...........
+[25945.769350] 10 00 10 00 95 08 09 00 03 00 16 00 91 01 40 03  ..............@.
+[25945.769354] 00 00 00 00 bd ae 41 03 60 00 07 00 00 00 00 00  ......A.`.......
+[25945.769359] 00 00 00 00 10 00 10 00 95 08 09 00 03 00 07 00  ................
+[25945.769363] 96 02 40 03 00 00 00 00 bd ae 41 03 b0 0a 00 00  ..@.......A.....
+[25945.769368] 00 00 00 00 00 00 00 00 10 00 10 00 95 07 02 00  ................
+[25945.769372] bd ae 41 03 3b 03 05 00 32 00 40 03 00 00 00 00  ..A.;...2.@.....
+[25945.769377] 60 00 16 00 10 00 10 00 3e 03 07 00 bc ae 41 03  `.......>.....A.
+[25945.769381] 2e 00 40 03 32 00 40 03 00 00 00 00 60 00 16 00  ..@.2.@.....`...
+[25945.769386] 10 00 10 00 38 00 04 00 32 00 40 03 00 00 08 00  ....8...2.@.....
+[25945.769390] 00 00 00 00 36 00 02 00 bc ae 41 03 00 00 00 00  ....6.....A.....
+[25945.769395] 00 00 00 00 00 00 00 00                          ........
+[25945.769403] DEBUG_INFO: firewall_rx: packet process time: 97498 nano.
+[25945.769411] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25946.690813] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25946.690820] DEBUG_INFO: firewall_rx: TCP src_port: 42753 dst_port: 443 syn: 1 ack: 0
+[25946.690824] len: 16
+[25946.690829] firewall_rx: data addrs data: ee565330 sk: eff3fcc0
+[25946.690834] ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+[25946.690839] DEBUG_INFO: enforce_rule_base: called
+[25946.690844] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.690851] warn_alloc_failed: 76 callbacks suppressed
+[25946.690856] Chrome_IOThread: page allocation failure: order:8, mode:0x4020
+[25946.690862] Pid: 1708, comm: Chrome_IOThread Tainted: G           O 3.2.0-37-generic-pae #58-Ubuntu
+[25946.690867] Call Trace:
+[25946.690878]  [<c15922ab>] ? printk+0x2d/0x2f
+[25946.690886]  [<c10fb46f>] warn_alloc_failed+0xbf/0x100
+[25946.690892]  [<c10fe14f>] __alloc_pages_nodemask+0x56f/0x740
+[25946.690900]  [<c10fe39c>] __get_free_pages+0x1c/0x30
+[25946.690907]  [<c11338c7>] kmalloc_order_trace+0x27/0xa0
+[25946.690915]  [<fb2e88be>] conn_node_create+0x2e/0x80 [fw5]
+[25946.690921]  [<fb2eb515>] ? hash_table_contains+0x15/0x50 [fw5]
+[25946.690928]  [<fb2e8d50>] handle_tcp_conn_chain+0xa0/0x430 [fw5]
+[25946.690935]  [<c10841c5>] ? getnstimeofday+0x55/0x120
+[25946.690941]  [<fb2e7aac>] firewall_rx+0x62c/0x950 [fw5]
+[25946.690948]  [<c14e88b7>] ? do_tcp_setsockopt.isra.34+0x87/0x700
+[25946.690955]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.690961]  [<c14d3a03>] nf_iterate+0x63/0x90
+[25946.690967]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.690973]  [<c14d3a92>] nf_hook_slow+0x62/0x110
+[25946.690979]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.690985]  [<c14dee91>] __ip_local_out+0xa1/0xb0
+[25946.690991]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.690996]  [<c14deeb0>] ip_local_out+0x10/0x30
+[25946.691002]  [<c14defee>] ip_queue_xmit+0x11e/0x3c0
+[25946.691008]  [<c14f77cf>] ? tcp_v4_md5_lookup+0xf/0x20
+[25946.691015]  [<c15a5636>] ? tcp_syn_options+0xab/0x1b2
+[25946.691021]  [<c14f4de7>] tcp_transmit_skb+0x2d7/0x4a0
+[25946.691027]  [<c14f51b8>] tcp_connect+0x148/0x1e0
+[25946.691033]  [<c14f9698>] tcp_v4_connect+0x328/0x480
+[25946.691039]  [<c15099ef>] inet_stream_connect+0x12f/0x1a0
+[25946.691046]  [<c149cb71>] sys_connect+0xc1/0xe0
+[25946.691053]  [<c15a81a6>] ? _raw_spin_unlock_bh+0x16/0x20
+[25946.691059]  [<c149e85f>] ? release_sock+0x5f/0x70
+[25946.691065]  [<c14e8f7a>] ? tcp_setsockopt+0x4a/0x60
+[25946.691070]  [<c149df07>] ? sock_common_setsockopt+0x27/0x40
+[25946.691077]  [<c12b8f8f>] ? __copy_from_user_ll+0x1f/0x40
+[25946.691083]  [<c149d7a3>] sys_socketcall+0xc3/0x2c0
+[25946.691088]  [<c12b90c0>] ? copy_to_user+0x40/0x60
+[25946.691095]  [<c1079448>] ? sys_clock_gettime+0x48/0x70
+[25946.691122]  [<c15af55f>] sysenter_do_call+0x12/0x28
+[25946.691127] Mem-Info:
+[25946.691132] DMA per-cpu:
+[25946.691137] CPU    0: hi:    0, btch:   1 usd:   0
+[25946.691141] CPU    1: hi:    0, btch:   1 usd:   0
+[25946.691146] CPU    2: hi:    0, btch:   1 usd:   0
+[25946.691150] CPU    3: hi:    0, btch:   1 usd:   0
+[25946.691154] Normal per-cpu:
+[25946.691159] CPU    0: hi:  186, btch:  31 usd: 106
+[25946.691163] CPU    1: hi:  186, btch:  31 usd: 159
+[25946.691167] CPU    2: hi:  186, btch:  31 usd:  89
+[25946.691172] CPU    3: hi:  186, btch:  31 usd: 173
+[25946.691176] HighMem per-cpu:
+[25946.691180] CPU    0: hi:  186, btch:  31 usd: 172
+[25946.691184] CPU    1: hi:  186, btch:  31 usd: 120
+[25946.691189] CPU    2: hi:  186, btch:  31 usd:  29
+[25946.691194] CPU    3: hi:  186, btch:  31 usd:  58
+[25946.691200] active_anon:168161 inactive_anon:2986 isolated_anon:0
+[25946.691204]  active_file:30486 inactive_file:96557 isolated_file:0
+[25946.691208]  unevictable:0 dirty:219 writeback:0 unstable:0
+[25946.691211]  free:507952 slab_reclaimable:3918 slab_unreclaimable:4615
+[25946.691215]  mapped:35337 shmem:3346 pagetables:2364 bounce:0
+[25946.691222] DMA free:4444kB min:784kB low:980kB high:1176kB active_anon:0kB inactive_anon:0kB active_file:12kB inactive_file:48kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15804kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:136kB kernel_stack:8kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25946.691229] lowmem_reserve[]: 0 869 3948 3948
+[25946.691238] Normal free:50736kB min:44216kB low:55268kB high:66324kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:92kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:890008kB mlocked:0kB dirty:0kB writeback:0kB mapped:4kB shmem:0kB slab_reclaimable:15672kB slab_unreclaimable:18324kB kernel_stack:4240kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25946.691245] lowmem_reserve[]: 0 0 24637 24637
+[25946.691253] HighMem free:1976628kB min:512kB low:39680kB high:78852kB active_anon:672644kB inactive_anon:11944kB active_file:121932kB inactive_file:386088kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:3153572kB mlocked:0kB dirty:876kB writeback:0kB mapped:141344kB shmem:13384kB slab_reclaimable:0kB slab_unreclaimable:0kB kernel_stack:0kB pagetables:9456kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25946.691260] lowmem_reserve[]: 0 0 0 0
+[25946.691266] DMA: 9*4kB 15*8kB 5*16kB 3*32kB 5*64kB 2*128kB 2*256kB 0*512kB 1*1024kB 1*2048kB 0*4096kB = 4492kB
+[25946.691276] Normal: 590*4kB 341*8kB 369*16kB 175*32kB 86*64kB 55*128kB 32*256kB 26*512kB 0*1024kB 0*2048kB 0*4096kB = 50640kB
+[25946.691285] HighMem: 2*4kB 16*8kB 768*16kB 1426*32kB 1024*64kB 342*128kB 102*256kB 38*512kB 18*1024kB 2*2048kB 425*4096kB = 1976264kB
+[25946.691295] 130476 total pagecache pages
+[25946.691300] 0 pages in swap cache
+[25946.691304] Swap cache stats: add 0, delete 0, find 0/0
+[25946.691308] Free swap  = 0kB
+[25946.691312] Total swap = 0kB
+[25946.697034] 1155056 pages RAM
+[25946.697039] 926722 pages HighMem
+[25946.697043] 180205 pages reserved
+[25946.697047] 191906 pages shared
+[25946.697050] 381997 pages non-shared
+[25946.697056] connection_table_add: conn_tab->hash or conn_node are null.
+[25946.697061] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25946.697066] firewall_rx: handle_tcp_chain() failed.
+[25946.697075] DEBUG_INFO: firewall_rx: packet process time: 6265881 nano.
+[25946.697086] DEBUG_INFO: log_verdict_and_reason: modified: 1401467611 protocol: 6 action: allow hooknum: 3 saddr: 173.194.113.48 daddr: 10.0.0.6 sport: 423 dport: 47873 reason: -4 no matching rule count: 1
+[25946.878096] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25946.878103] DEBUG_INFO: firewall_rx: TCP src_port: 54736 dst_port: 443 syn: 0 ack: 1
+[25946.878107] len: 528
+[25946.878111] firewall_rx: data addrs data: e82e3d30 sk: ec4b9780
+[25946.878116] 17 03 02 00 c0 82 36 53 25 1e e1 07 39 e8 bf 04  ......6S%...9...
+[25946.878121] 89 22 d7 cb a1 77 ca 88 0b 48 ac f2 d9 77 a1 91  ."...w...H...w..
+[25946.878125] de 47 62 22 53 fb 91 63 5e b9 16 ae 74 0e eb f6  .Gb"S..c^...t...
+[25946.878129] 62 a4 e6 8b fb 21 75 01 ea 36 c5 62 b6 a5 16 b5  b....!u..6.b....
+[25946.878134] 1f 85 ed b7 8f 34 25 03 de bb dd 24 0c 85 9b 33  .....4%....$...3
+[25946.878138] 3a 02 6c 73 78 22 22 56 9a 7b 88 f4 16 0f ab e9  :.lsx""V.{......
+[25946.878142] 2a 98 55 ef 75 86 b9 de c8 b0 d3 06 5a 7b d1 0d  *.U.u.......Z{..
+[25946.878147] a2 3a 32 53 55 4b c4 2d db 0e 59 e9 ed 4d 5e 06  .:2SUK.-..Y..M^.
+[25946.878151] 46 d0 fd c5 7d 7f ef c3 80 47 32 a7 57 53 40 aa  F...}....G2.WS@.
+[25946.878155] a4 7e 82 b7 50 27 b8 e0 ee b1 ba 40 80 f9 eb 11  .~..P'.....@....
+[25946.878160] 4e 0d cb 12 71 b8 a2 aa cb ff c7 48 63 9d f2 1f  N...q......Hc...
+[25946.878164] 76 6c a8 c7 11 34 8b ca 68 49 79 2c 38 71 e9 a3  vl...4..hIy,8q..
+[25946.878168] 5f a0 2a 0b ac ff d1 0a 07 00 00 00 c0 84 00 00  _.*.............
+[25946.878172] 3d 3f 03 3e 34 c9 09 3d 00 40 5d 44 00 00 23 43  =?.>4..=.@]D..#C
+[25946.878177] 00 00 00 00 c0 84 00 00 3d 3f 03 3e 71 fe 6d 3d  ........=?.>q.m=
+[25946.878181] 00 40 5d 44 00 00 33 43 00 00 00 00 c0 84 00 00  .@]D..3C........
+[25946.878185] 1c 1f 19 3e 71 fe 6d 3d 00 40 61 44 00 00 33 43  ...>q.m=.@aD..3C
+[25946.878189] 00 00 00 00 c0 84 00 00 1c 1f 19 3e 34 c9 09 3d  ...........>4..=
+[25946.878194] 00 40 61 44 00 00 23 43 00 00 00 00 ef be ad de  .@aD..#C........
+[25946.878198] e1 0d 00 00 00 00 00 00 e1 0d 00 00 10 00 00 00  ................
+[25946.878202] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878206] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878211] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878215] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878219] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878224] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878228] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878232] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878236] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878240] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878245] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878249] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878253] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.878258] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.878263] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.878271] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.878276] DEBUG_INFO: add_to_tcp_chain: called
+[25946.878280] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.878288] DEBUG_INFO: firewall_rx: packet process time: 198070 nano.
+[25946.878888] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25946.878893] DEBUG_INFO: firewall_rx: TCP src_port: 54736 dst_port: 443 syn: 0 ack: 1
+[25946.878897] len: 528
+[25946.878901] firewall_rx: data addrs data: e82e3130 sk: ec4b9940
+[25946.878906] 17 03 02 00 40 c3 80 ed 98 6a db 24 c0 f9 8a 34  ....@....j.$...4
+[25946.878910] d1 bc 49 c9 2b f3 71 f8 5e 53 fc 18 47 e7 8f 15  ..I.+.q.^S..G...
+[25946.878914] e3 7b e7 a6 e6 e9 7c 78 b7 f4 c3 4d 24 ea 30 a1  .{....|x...M$.0.
+[25946.878919] 24 25 2f ef 6f 3a 62 bb 34 47 89 b6 ba fa 4f 4b  $%/.o:b.4G....OK
+[25946.878923] f5 8a 8f f9 b1 af 41 03 13 01 00 00 00 00 00 00  ......A.........
+[25946.878927] c3 00 00 00 0f 00 1a 00 95 08 09 00 03 00 00 00  ................
+[25946.878932] 9c 01 40 03 00 00 00 00 39 af 41 03 00 00 00 00  ..@.....9.A.....
+[25946.878936] 00 00 00 00 00 00 00 00 0f 00 1a 00 95 08 09 00  ................
+[25946.878940] 03 00 00 00 a1 01 40 03 00 00 00 00 39 af 41 03  ......@.....9.A.
+[25946.878944] 0f 00 00 00 00 00 00 00 0f 00 00 00 b4 00 1a 00  ................
+[25946.878949] 95 08 09 00 03 00 00 00 a6 01 40 03 00 00 00 00  ..........@.....
+[25946.878953] 39 af 41 03 00 00 00 00 00 00 00 00 c3 00 00 00  9.A.............
+[25946.878957] 0f 00 1a 00 95 06 05 00 39 af 41 03 00 00 00 00  ........9.A.....
+[25946.878961] 24 00 06 00 8c 00 12 00 95 17 0e 00 03 00 13 00  $...............
+[25946.878966] d4 aa 41 03 39 af 41 03 25 00 00 00 a7 01 40 03  ..A.9.A.%.....@.
+[25946.878970] 24 00 13 00 05 00 00 00 24 00 13 00 31 48 5a 03  $.......$...1HZ.
+[25946.878974] 37 af 41 03 02 00 00 00 ff ff 00 00 44 45 09 00  7.A.........DE..
+[25946.878978] 95 05 04 00 39 af 41 03 40 00 00 00 00 00 00 00  ....9.A.@.......
+[25946.878983] 95 08 09 00 03 00 00 00 96 02 40 03 00 00 00 00  ..........@.....
+[25946.878987] 39 af 41 03 80 01 00 00 00 00 00 00 10 00 07 00  9.A.............
+[25946.878991] 10 00 10 00 95 08 09 00 03 00 00 00 6c a9 41 03  ............l.A.
+[25946.878995] 00 00 00 00 39 af 41 03 00 00 00 00 00 00 00 00  ....9.A.........
+[25946.879000] b5 00 06 00 12 00 12 00 95 08 09 00 03 00 00 00  ................
+[25946.879004] 71 a9 41 03 00 00 00 00 39 af 41 03 00 00 00 00  q.A.....9.A.....
+[25946.879008] 00 00 00 00 b5 00 06 00 12 00 12 00 95 07 02 00  ................
+[25946.879012] 39 af 41 03 3b 03 05 00 32 00 40 03 00 00 00 00  9.A.;...2.@.....
+[25946.879017] 50 00 0f 00 d2 00 1a 00 3e 00 07 00 38 af 41 03  P.......>...8.A.
+[25946.879021] 2e 00 40 03 32 00 40 03 00 00 00 00 50 00 0f 00  ..@.2.@.....P...
+[25946.879025] d2 00 1a 00 38 af 04 00 32 00 40 03 00 00 08 00  ....8...2.@.....
+[25946.879029] 00 00 00 00 36 00 02 00 38 af 41 03 00 00 00 00  ....6...8.A.....
+[25946.879034] 50 00 0f 00 d2 00 1a 00 38 ac 04 00 32 00 40 03  P.......8...2.@.
+[25946.879038] 00 00 08 00 00 00 00 00 36 ab 02 00 9e ac 41 03  ........6.....A.
+[25946.879042] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.879047] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.879051] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.879059] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.879063] DEBUG_INFO: add_to_tcp_chain: called
+[25946.879068] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.879075] DEBUG_INFO: firewall_rx: packet process time: 190248 nano.
+[25946.909808] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25946.909815] DEBUG_INFO: firewall_rx: TCP src_port: 54736 dst_port: 443 syn: 0 ack: 1
+[25946.909820] len: 528
+[25946.909824] firewall_rx: data addrs data: ede46930 sk: f1fbf940
+[25946.909830] 17 03 02 00 40 c4 49 50 09 69 0b 48 cb 83 bf 98  ....@.IP.i.H....
+[25946.909834] 25 b0 36 47 74 e8 ea 58 14 6c 02 8c b0 80 b1 91  %.6Gt..X.l......
+[25946.909839] 84 b9 2e c5 5b cc da c9 36 63 60 0b cb 91 40 be  ....[...6c`...@.
+[25946.909844] 91 24 3d 0e 55 4c 7d 71 37 db de 36 1d d6 da 10  .$=.UL}q7..6....
+[25946.909848] d2 5b b6 b1 83 00 00 00 00 00 00 00 00 00 00 00  .[..............
+[25946.909853] c3 00 00 00 0f 00 1a 00 95 08 09 00 03 00 00 00  ................
+[25946.909858] 9c 01 40 03 00 00 00 00 2b b0 41 03 00 00 00 00  ..@.....+.A.....
+[25946.909862] 00 00 00 00 00 00 00 00 0f 00 1a 00 95 08 09 00  ................
+[25946.909867] 03 00 05 00 a1 01 40 03 00 00 00 00 2b b0 41 03  ......@.....+.A.
+[25946.909872] 0f 00 00 00 00 00 00 00 0f 00 00 00 b4 00 1a 00  ................
+[25946.909877] 95 08 09 00 03 01 40 03 a6 01 40 03 00 00 00 00  ......@...@.....
+[25946.909882] 2b b0 41 03 00 00 00 00 00 00 00 00 c3 00 00 00  +.A.............
+[25946.909886] 0f 00 1a 00 95 06 05 00 2b b0 41 03 00 00 00 00  ........+.A.....
+[25946.909891] 24 00 06 00 8c 00 12 00 95 17 0e 00 03 01 40 03  $.............@.
+[25946.909896] d4 aa 41 03 2b b0 41 03 25 00 00 00 a7 01 40 03  ..A.+.A.%.....@.
+[25946.909901] 24 00 13 00 05 00 00 00 24 00 13 00 31 48 5a 03  $.......$...1HZ.
+[25946.909906] 37 00 00 00 02 00 00 00 ff ff 00 00 44 45 00 00  7...........DE..
+[25946.909910] 95 05 04 00 2b b0 41 03 40 00 00 00 00 00 00 00  ....+.A.@.......
+[25946.909915] 95 08 09 00 03 00 02 00 96 02 40 03 00 00 00 00  ..........@.....
+[25946.909920] 2b b0 41 03 60 06 00 00 00 00 00 00 10 00 07 00  +.A.`...........
+[25946.909925] 10 00 10 00 95 08 09 00 03 00 16 00 6c a9 41 03  ............l.A.
+[25946.909930] 00 00 00 00 2b b0 41 03 00 00 00 00 00 00 00 00  ....+.A.........
+[25946.909934] b5 00 06 00 12 00 12 00 95 08 09 00 03 00 14 00  ................
+[25946.909939] 71 a9 41 03 00 00 00 00 2b b0 41 03 00 00 00 00  q.A.....+.A.....
+[25946.909944] 00 00 00 00 b5 00 06 00 12 00 12 00 95 07 02 00  ................
+[25946.909948] 2b b0 41 03 3b 03 05 00 32 00 40 03 00 00 00 00  +.A.;...2.@.....
+[25946.909953] 50 00 0f 00 d2 00 1a 00 3e 00 07 00 2a b0 41 03  P.......>...*.A.
+[25946.909958] 2e 00 40 03 32 00 40 03 00 00 00 00 50 00 0f 00  ..@.2.@.....P...
+[25946.909963] d2 00 1a 00 38 00 04 00 32 00 40 03 00 00 08 00  ....8...2.@.....
+[25946.909968] 00 00 00 00 36 00 02 00 2a b0 41 03 00 00 00 00  ....6...*.A.....
+[25946.909972] 50 00 0f 00 d2 00 1a 00 38 ae 04 00 32 00 40 03  P.......8...2.@.
+[25946.909977] 00 00 08 00 00 00 00 00 36 ab 02 00 c0 ae 41 03  ........6.....A.
+[25946.909982] 00 23 00 00 00 22 00 00 01 1e 00 00 10 00 00 00  .#..."..........
+[25946.909987] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.909992] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.910002] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.910006] DEBUG_INFO: add_to_tcp_chain: called
+[25946.910011] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.910020] DEBUG_INFO: firewall_rx: packet process time: 217346 nano.
+[25946.949331] DEBUG_INFO: firewall_rx: Received: 173.194.70.94 -> 10.0.0.6 from dev: eth0
+[25946.949338] DEBUG_INFO: firewall_rx: TCP src_port: 443 dst_port: 54736 syn: 0 ack: 1
+[25946.949343] len: 190
+[25946.949348] firewall_rx: data addrs data: f23e3482 sk: c0c2aa80
+[25946.949354] c0 cd 6e 0f 82 01 71 0f 82 01 f1 e7 8b 01 50 00  ..n...q.......P.
+[25946.949359] 0f 00 d2 00 1a 00 00 00 00 00 ed 02 8e 02 68 00  ..............h.
+[25946.949364] c0 cd 2e 00 40 03 3f 0f 82 01 f1 e7 8b 01 50 00  ....@.?.......P.
+[25946.949368] 0f 00 d2 00 1a 00 15 03 8d 00 ed 02 8e 02 0a 01  ................
+[25946.949373] 00 00 ff ff ff ff 00 00 00 00 ff ff ff ff 00 00  ................
+[25946.949378] 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00  ................
+[25946.949382] 00 00 02 00 0b 00 0b 00 03 00 0b 01 00 00 ff ff  ................
+[25946.949387] ff ff 00 00 00 00 ff ff ff ff 00 00 00 00 00 00  ................
+[25946.949392] 00 00 00 00 00 00 01 00 00 00 00 00 00 00 03 00  ................
+[25946.949397] 06 00 0b 00 02 00 02 00 00 00 00 00 00 00 01 00  ................
+[25946.949401] 00 00 00 00 00 00 03 00 06 00 0b 00 03 00 01 00  ................
+[25946.949406] 00 00 02 00 00 00 ff ff ff ff 00 00 00 00        ..............
+[25946.949411] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.949417] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.949426] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.949431] DEBUG_INFO: add_to_tcp_chain: called
+[25946.949437] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.949445] DEBUG_INFO: firewall_rx: packet process time: 118451 nano.
+[25946.949477] DEBUG_INFO: firewall_rx: Received: 173.194.70.94 -> 10.0.0.6 from dev: eth0
+[25946.949483] DEBUG_INFO: firewall_rx: TCP src_port: 443 dst_port: 54736 syn: 0 ack: 1
+[25946.949487] len: 190
+[25946.949491] firewall_rx: data addrs data: f23e3482 sk: c0c2aa80
+[25946.949496] c0 cd 6e 0f 82 01 71 0f 82 01 f1 e7 8b 01 50 00  ..n...q.......P.
+[25946.949501] 0f 00 d2 00 1a 00 00 00 00 00 ed 02 8e 02 68 00  ..............h.
+[25946.949506] c0 cd 2e 00 40 03 3f 0f 82 01 f1 e7 8b 01 50 00  ....@.?.......P.
+[25946.949511] 0f 00 d2 00 1a 00 15 03 8d 00 ed 02 8e 02 0a 01  ................
+[25946.949515] 00 00 ff ff ff ff 00 00 00 00 ff ff ff ff 00 00  ................
+[25946.949520] 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00  ................
+[25946.949533] 00 00 02 00 0b 00 0b 00 03 00 0b 01 00 00 ff ff  ................
+[25946.949538] ff ff 00 00 00 00 ff ff ff ff 00 00 00 00 00 00  ................
+[25946.949542] 00 00 00 00 00 00 01 00 00 00 00 00 00 00 03 00  ................
+[25946.949547] 06 00 0b 00 02 00 02 00 00 00 00 00 00 00 01 00  ................
+[25946.949551] 00 00 00 00 00 00 03 00 06 00 0b 00 03 00 01 00  ................
+[25946.949555] 00 00 02 00 00 00 ff ff ff ff 00 00 00 00        ..............
+[25946.949560] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.949564] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.949572] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.949590] DEBUG_INFO: add_to_tcp_chain: called
+[25946.949596] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.949604] DEBUG_INFO: firewall_rx: packet process time: 127390 nano.
+[25946.949624] DEBUG_INFO: firewall_rx: Received: 173.194.70.94 -> 10.0.0.6 from dev: eth0
+[25946.949629] DEBUG_INFO: firewall_rx: TCP src_port: 443 dst_port: 54736 syn: 0 ack: 1
+[25946.949633] len: 190
+[25946.949637] firewall_rx: data addrs data: f23e3482 sk: c0c2aa80
+[25946.949642] 17 03 02 00 40 c9 49 55 b2 ec f3 be 83 3e c3 4e  ....@.IU.....>.N
+[25946.949646] 56 b9 75 28 e6 7f 44 a1 0d c1 fc 65 46 3b 91 1e  V.u(..D....eF;..
+[25946.949651] 2c c8 b4 b4 7d d4 21 41 a5 e6 4c 07 89 83 3b 6f  ,...}.!A..L...;o
+[25946.949655] e6 7d e6 d6 5b 1e a3 02 5f 1a c4 80 85 99 06 75  .}..[..._......u
+[25946.949659] 9b d3 3f 5c 58 ff 00 00 00 00 ff ff ff ff 00 00  ..?\X...........
+[25946.949664] 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00  ................
+[25946.949668] 00 00 02 00 0b 00 0b 00 03 00 0b 01 00 00 ff ff  ................
+[25946.949673] ff ff 00 00 00 00 ff ff ff ff 00 00 00 00 00 00  ................
+[25946.949677] 00 00 00 00 00 00 01 00 00 00 00 00 00 00 03 00  ................
+[25946.949681] 06 00 0b 00 02 00 02 00 00 00 00 00 00 00 01 00  ................
+[25946.949686] 00 00 00 00 00 00 03 00 06 00 0b 00 03 00 01 00  ................
+[25946.949690] 00 00 02 00 00 00 ff ff ff ff 00 00 00 00        ..............
+[25946.949694] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.949699] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.949707] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.949711] DEBUG_INFO: add_to_tcp_chain: called
+[25946.949715] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.949723] DEBUG_INFO: firewall_rx: packet process time: 99454 nano.
+[25946.961110] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25946.961117] DEBUG_INFO: firewall_rx: TCP src_port: 42754 dst_port: 443 syn: 1 ack: 0
+[25946.961122] len: 16
+[25946.961127] firewall_rx: data addrs data: ee564730 sk: eff3fe80
+[25946.961132] ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+[25946.961137] DEBUG_INFO: enforce_rule_base: called
+[25946.961141] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.961148] Chrome_IOThread: page allocation failure: order:8, mode:0x4020
+[25946.961154] Pid: 1708, comm: Chrome_IOThread Tainted: G           O 3.2.0-37-generic-pae #58-Ubuntu
+[25946.961159] Call Trace:
+[25946.961178]  [<c15922ab>] ? printk+0x2d/0x2f
+[25946.961186]  [<c10fb46f>] warn_alloc_failed+0xbf/0x100
+[25946.961192]  [<c10fe14f>] __alloc_pages_nodemask+0x56f/0x740
+[25946.961198]  [<c10fe39c>] __get_free_pages+0x1c/0x30
+[25946.961205]  [<c11338c7>] kmalloc_order_trace+0x27/0xa0
+[25946.961212]  [<fb2e88be>] conn_node_create+0x2e/0x80 [fw5]
+[25946.961218]  [<fb2eb515>] ? hash_table_contains+0x15/0x50 [fw5]
+[25946.961224]  [<fb2e8d50>] handle_tcp_conn_chain+0xa0/0x430 [fw5]
+[25946.961231]  [<c10841c5>] ? getnstimeofday+0x55/0x120
+[25946.961243]  [<fb2e7aac>] firewall_rx+0x62c/0x950 [fw5]
+[25946.961250]  [<c14e88b7>] ? do_tcp_setsockopt.isra.34+0x87/0x700
+[25946.961257]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.961264]  [<c14d3a03>] nf_iterate+0x63/0x90
+[25946.961269]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.961284]  [<c14d3a92>] nf_hook_slow+0x62/0x110
+[25946.961289]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.961295]  [<c14dee91>] __ip_local_out+0xa1/0xb0
+[25946.961301]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25946.961306]  [<c14deeb0>] ip_local_out+0x10/0x30
+[25946.961312]  [<c14defee>] ip_queue_xmit+0x11e/0x3c0
+[25946.961318]  [<c14f77cf>] ? tcp_v4_md5_lookup+0xf/0x20
+[25946.961324]  [<c15a5636>] ? tcp_syn_options+0xab/0x1b2
+[25946.961330]  [<c14f4de7>] tcp_transmit_skb+0x2d7/0x4a0
+[25946.961336]  [<c14f51b8>] tcp_connect+0x148/0x1e0
+[25946.961342]  [<c14f9698>] tcp_v4_connect+0x328/0x480
+[25946.961348]  [<c15099ef>] inet_stream_connect+0x12f/0x1a0
+[25946.961355]  [<c149cb71>] sys_connect+0xc1/0xe0
+[25946.961361]  [<c15a81a6>] ? _raw_spin_unlock_bh+0x16/0x20
+[25946.961367]  [<c149e85f>] ? release_sock+0x5f/0x70
+[25946.961373]  [<c14e8f7a>] ? tcp_setsockopt+0x4a/0x60
+[25946.961379]  [<c149df07>] ? sock_common_setsockopt+0x27/0x40
+[25946.961386]  [<c12b8f8f>] ? __copy_from_user_ll+0x1f/0x40
+[25946.961392]  [<c149d7a3>] sys_socketcall+0xc3/0x2c0
+[25946.961406]  [<c12b90c0>] ? copy_to_user+0x40/0x60
+[25946.961412]  [<c1079448>] ? sys_clock_gettime+0x48/0x70
+[25946.961417]  [<c15af55f>] sysenter_do_call+0x12/0x28
+[25946.961423]  [<c15a0000>] ? setterm_command+0xae/0x1b5
+[25946.961427] Mem-Info:
+[25946.961431] DMA per-cpu:
+[25946.961436] CPU    0: hi:    0, btch:   1 usd:   0
+[25946.961440] CPU    1: hi:    0, btch:   1 usd:   0
+[25946.961444] CPU    2: hi:    0, btch:   1 usd:   0
+[25946.961448] CPU    3: hi:    0, btch:   1 usd:   0
+[25946.961452] Normal per-cpu:
+[25946.961456] CPU    0: hi:  186, btch:  31 usd: 106
+[25946.961460] CPU    1: hi:  186, btch:  31 usd: 161
+[25946.961473] CPU    2: hi:  186, btch:  31 usd:  54
+[25946.961478] CPU    3: hi:  186, btch:  31 usd: 174
+[25946.961482] HighMem per-cpu:
+[25946.961486] CPU    0: hi:  186, btch:  31 usd: 158
+[25946.961490] CPU    1: hi:  186, btch:  31 usd:  40
+[25946.961495] CPU    2: hi:  186, btch:  31 usd:  52
+[25946.961499] CPU    3: hi:  186, btch:  31 usd:  46
+[25946.961506] active_anon:168827 inactive_anon:2986 isolated_anon:0
+[25946.961509]  active_file:30486 inactive_file:96556 isolated_file:0
+[25946.961513]  unevictable:0 dirty:219 writeback:0 unstable:0
+[25946.961517]  free:507287 slab_reclaimable:3918 slab_unreclaimable:4615
+[25946.961521]  mapped:35337 shmem:3346 pagetables:2419 bounce:0
+[25946.961529] DMA free:4444kB min:784kB low:980kB high:1176kB active_anon:0kB inactive_anon:0kB active_file:12kB inactive_file:48kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15804kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:136kB kernel_stack:8kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25946.961535] lowmem_reserve[]: 0 869 3948 3948
+[25946.961544] Normal free:50796kB min:44216kB low:55268kB high:66324kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:88kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:890008kB mlocked:0kB dirty:0kB writeback:0kB mapped:4kB shmem:0kB slab_reclaimable:15672kB slab_unreclaimable:18324kB kernel_stack:4240kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:6 all_unreclaimable? no
+[25946.961551] lowmem_reserve[]: 0 0 24637 24637
+[25946.961559] HighMem free:1973908kB min:512kB low:39680kB high:78852kB active_anon:675308kB inactive_anon:11944kB active_file:121932kB inactive_file:386088kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:3153572kB mlocked:0kB dirty:876kB writeback:0kB mapped:141344kB shmem:13384kB slab_reclaimable:0kB slab_unreclaimable:0kB kernel_stack:0kB pagetables:9676kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25946.961566] lowmem_reserve[]: 0 0 0 0
+[25946.961572] DMA: 9*4kB 15*8kB 5*16kB 3*32kB 5*64kB 2*128kB 2*256kB 0*512kB 1*1024kB 1*2048kB 0*4096kB = 4492kB
+[25946.961590] Normal: 585*4kB 351*8kB 369*16kB 177*32kB 87*64kB 55*128kB 32*256kB 26*512kB 0*1024kB 0*2048kB 0*4096kB = 50828kB
+[25946.961599] HighMem: 22*4kB 24*8kB 600*16kB 1426*32kB 1025*64kB 342*128kB 102*256kB 38*512kB 18*1024kB 2*2048kB 425*4096kB = 1973784kB
+[25946.961608] 130476 total pagecache pages
+[25946.961612] 0 pages in swap cache
+[25946.961617] Swap cache stats: add 0, delete 0, find 0/0
+[25946.961620] Free swap  = 0kB
+[25946.961624] Total swap = 0kB
+[25946.967791] 1155056 pages RAM
+[25946.967797] 926722 pages HighMem
+[25946.967800] 180205 pages reserved
+[25946.967804] 194176 pages shared
+[25946.967807] 382641 pages non-shared
+[25946.967813] connection_table_add: conn_tab->hash or conn_node are null.
+[25946.967818] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25946.967823] firewall_rx: handle_tcp_chain() failed.
+[25946.967831] DEBUG_INFO: firewall_rx: packet process time: 6724598 nano.
+[25946.967842] DEBUG_INFO: log_verdict_and_reason: modified: 1401467611 protocol: 6 action: allow hooknum: 3 saddr: 173.194.113.48 daddr: 10.0.0.6 sport: 679 dport: 47873 reason: -4 no matching rule count: 1
+[25946.988100] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.70.94 from dev: (null)
+[25946.988107] DEBUG_INFO: firewall_rx: TCP src_port: 54736 dst_port: 443 syn: 0 ack: 1
+[25946.988112] len: 16
+[25946.988116] firewall_rx: data addrs data: f23e3530 sk: c0c2a6c0
+[25946.988122] 01 00 00 00 02 00 00 00 ff ff ff ff 00 00 00 00  ................
+[25946.988127] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25946.988133] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25946.988143] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25946.988147] DEBUG_INFO: add_to_tcp_chain: called
+[25946.988152] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25946.988160] DEBUG_INFO: firewall_rx: packet process time: 66489 nano.
+[25947.026488] DEBUG_INFO: firewall_rx: Received: 173.194.70.94 -> 10.0.0.6 from dev: eth0
+[25947.026494] DEBUG_INFO: firewall_rx: TCP src_port: 443 dst_port: 54736 syn: 0 ack: 1
+[25947.026498] len: 190
+[25947.026502] firewall_rx: data addrs data: f23e3482 sk: c0c2af00
+[25947.026507] 17 03 02 00 40 c9 49 55 b2 ec f3 be 83 3e c3 4e  ....@.IU.....>.N
+[25947.026511] 56 b9 75 28 e6 7f 44 a1 0d c1 fc 65 46 3b 91 1e  V.u(..D....eF;..
+[25947.026515] 2c c8 b4 b4 7d d4 21 41 a5 e6 4c 07 89 83 3b 6f  ,...}.!A..L...;o
+[25947.026519] e6 7d e6 d6 5b 1e a3 02 5f 1a c4 80 85 99 06 75  .}..[..._......u
+[25947.026522] 9b d3 3f 5c 58 ff 00 00 00 00 ff ff ff ff 00 00  ..?\X...........
+[25947.026526] 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00  ................
+[25947.026530] 00 00 02 00 0b 00 0b 00 03 00 00 00 c8 be 19 0c  ................
+[25947.026534] 4e 48 08 00 27 22 6e 03 08 00 45 00 00 34 21 53  NH..'"n...E..4!S
+[25947.026538] 40 00 40 06 1b 4b 0a 00 00 06 ad c2 46 5e d5 d0  @.@..K......F^..
+[25947.026542] 01 bb f1 b6 ee 87 3e 83 bb e3 80 10 07 9d fe 4c  ......>........L
+[25947.026546] 00 00 01 01 08 0a 00 61 d5 e3 a1 b2 2a 56 01 00  .......a....*V..
+[25947.026549] 00 00 02 00 00 00 ff ff ff ff 00 00 00 00        ..............
+[25947.026554] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25947.026559] DEBUG_INPUT: handle_tcp_conn_chain: conn_node found: f0a00000.
+[25947.026566] DEBUG_INFO: validate_conn_state: called: syn = 0 ack = 1 fin = 0 state: conn established.
+[25947.026570] DEBUG_INFO: add_to_tcp_chain: called
+[25947.026574] handle_tcp_conn_chain: reason: -4 no matching rule action 1.
+[25947.026582] DEBUG_INFO: firewall_rx: packet process time: 97219 nano.
+[25947.208658] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.208665] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.208670] DEBUG_INFO: enforce_rule_base: called
+[25947.208675] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.208683] DEBUG_INFO: firewall_rx: packet process time: 28495 nano.
+[25947.208691] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.208707] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.208711] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.208716] DEBUG_INFO: enforce_rule_base: called
+[25947.208720] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.208728] DEBUG_INFO: firewall_rx: packet process time: 21511 nano.
+[25947.208735] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.219025] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.219031] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.219035] DEBUG_INFO: enforce_rule_base: called
+[25947.219040] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.219047] DEBUG_INFO: firewall_rx: packet process time: 25422 nano.
+[25947.219055] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.219067] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.219071] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.219075] DEBUG_INFO: enforce_rule_base: called
+[25947.219079] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.219087] DEBUG_INFO: firewall_rx: packet process time: 20393 nano.
+[25947.219094] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.250822] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.250829] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.250834] DEBUG_INFO: enforce_rule_base: called
+[25947.250839] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.250848] DEBUG_INFO: firewall_rx: packet process time: 29892 nano.
+[25947.250856] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.250872] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.250877] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.250881] DEBUG_INFO: enforce_rule_base: called
+[25947.250886] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.250894] DEBUG_INFO: firewall_rx: packet process time: 23187 nano.
+[25947.250903] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.263621] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.263627] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.263631] DEBUG_INFO: enforce_rule_base: called
+[25947.263636] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.263644] DEBUG_INFO: firewall_rx: packet process time: 26539 nano.
+[25947.263652] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.263667] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.263672] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.263676] DEBUG_INFO: enforce_rule_base: called
+[25947.263680] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.263688] DEBUG_INFO: firewall_rx: packet process time: 21232 nano.
+[25947.263696] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.527317] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.527324] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.527328] DEBUG_INFO: enforce_rule_base: called
+[25947.527333] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.527341] DEBUG_INFO: firewall_rx: packet process time: 29054 nano.
+[25947.527349] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.527365] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.527370] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.527374] DEBUG_INFO: enforce_rule_base: called
+[25947.527378] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.527386] DEBUG_INFO: firewall_rx: packet process time: 21791 nano.
+[25947.527394] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.540118] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.540124] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.540128] DEBUG_INFO: enforce_rule_base: called
+[25947.540133] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.540140] DEBUG_INFO: firewall_rx: packet process time: 25981 nano.
+[25947.540148] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.540247] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.540252] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.540256] DEBUG_INFO: enforce_rule_base: called
+[25947.540260] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.540268] DEBUG_INFO: firewall_rx: packet process time: 22069 nano.
+[25947.540275] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.540345] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.540350] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.540354] DEBUG_INFO: enforce_rule_base: called
+[25947.540359] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.540368] DEBUG_INFO: firewall_rx: packet process time: 24305 nano.
+[25947.540377] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.540388] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.540392] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.540397] DEBUG_INFO: enforce_rule_base: called
+[25947.540401] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.540409] DEBUG_INFO: firewall_rx: packet process time: 21511 nano.
+[25947.540418] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.540484] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25947.540489] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.540493] DEBUG_INFO: enforce_rule_base: called
+[25947.540497] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.540506] DEBUG_INFO: firewall_rx: packet process time: 22628 nano.
+[25947.540513] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.540524] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25947.540529] DEBUG_INFO: firewall_rx: UDP src_port: 42808 dst_port: 42808
+[25947.540533] DEBUG_INFO: enforce_rule_base: called
+[25947.540537] DEBUG_INFO: enforce_rule_base: Rule 2 matched action: 1
+[25947.540545] DEBUG_INFO: firewall_rx: packet process time: 21791 nano.
+[25947.540553] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25947.696179] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25947.696185] DEBUG_INFO: firewall_rx: TCP src_port: 42753 dst_port: 443 syn: 1 ack: 0
+[25947.696189] len: 16
+[25947.696193] firewall_rx: data addrs data: ee564530 sk: f750cb40
+[25947.696197] ea b0 41 03 ff ff ff ff ff ff ff ff ff ff ff ff  ..A.............
+[25947.696201] DEBUG_INFO: enforce_rule_base: called
+[25947.696206] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25947.696212] swapper/1: page allocation failure: order:8, mode:0x4020
+[25947.696217] Pid: 0, comm: swapper/1 Tainted: G           O 3.2.0-37-generic-pae #58-Ubuntu
+[25947.696221] Call Trace:
+[25947.696230]  [<c15922ab>] ? printk+0x2d/0x2f
+[25947.696237]  [<c10fb46f>] warn_alloc_failed+0xbf/0x100
+[25947.696242]  [<c10fe14f>] __alloc_pages_nodemask+0x56f/0x740
+[25947.696248]  [<c10fe39c>] __get_free_pages+0x1c/0x30
+[25947.696254]  [<c11338c7>] kmalloc_order_trace+0x27/0xa0
+[25947.696261]  [<fb2e88be>] conn_node_create+0x2e/0x80 [fw5]
+[25947.696267]  [<fb2eb515>] ? hash_table_contains+0x15/0x50 [fw5]
+[25947.696272]  [<fb2e8d50>] handle_tcp_conn_chain+0xa0/0x430 [fw5]
+[25947.696278]  [<c10841c5>] ? getnstimeofday+0x55/0x120
+[25947.696283]  [<fb2e7aac>] firewall_rx+0x62c/0x950 [fw5]
+[25947.696289]  [<c1054130>] ? try_to_wake_up+0x190/0x190
+[25947.696295]  [<c103ff67>] ? __wake_up_common+0x47/0x70
+[25947.696301]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.696307]  [<c14d3a03>] nf_iterate+0x63/0x90
+[25947.696312]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.696317]  [<c14d3a92>] nf_hook_slow+0x62/0x110
+[25947.696321]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.696326]  [<c14dee91>] __ip_local_out+0xa1/0xb0
+[25947.696331]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.696336]  [<c14deeb0>] ip_local_out+0x10/0x30
+[25947.696340]  [<c14defee>] ip_queue_xmit+0x11e/0x3c0
+[25947.696346]  [<c14f77cf>] ? tcp_v4_md5_lookup+0xf/0x20
+[25947.696352]  [<c15a5636>] ? tcp_syn_options+0xab/0x1b2
+[25947.696356]  [<c14f4de7>] tcp_transmit_skb+0x2d7/0x4a0
+[25947.696361]  [<c14f5c15>] tcp_retransmit_skb+0x165/0x2b0
+[25947.696366]  [<c14f7437>] tcp_retransmit_timer+0x1e7/0x3e0
+[25947.696371]  [<c14f76f7>] tcp_write_timer+0xc7/0xf0
+[25947.696377]  [<c1067eff>] call_timer_fn+0x2f/0x110
+[25947.696383]  [<c1157f49>] ? __d_free+0x39/0x60
+[25947.696388]  [<c1157f49>] ? __d_free+0x39/0x60
+[25947.696392]  [<c14f7630>] ? tcp_retransmit_timer+0x3e0/0x3e0
+[25947.696397]  [<c10695fb>] run_timer_softirq+0xeb/0x210
+[25947.696403]  [<c10c4cc3>] ? rcu_check_quiescent_state+0x23/0xa0
+[25947.696407]  [<c14f7630>] ? tcp_retransmit_timer+0x3e0/0x3e0
+[25947.696412]  [<c10c555b>] ? __rcu_process_callbacks+0x3b/0x110
+[25947.696417]  [<c1061490>] ? local_bh_enable_ip+0x90/0x90
+[25947.696422]  [<c1061511>] __do_softirq+0x81/0x1a0
+[25947.696427]  [<c1061490>] ? local_bh_enable_ip+0x90/0x90
+[25947.696431]  <IRQ>  [<c1061856>] ? irq_exit+0x76/0xa0
+[25947.696438]  [<c15afd69>] ? smp_apic_timer_interrupt+0x59/0x88
+[25947.696443]  [<c15a8909>] ? apic_timer_interrupt+0x31/0x38
+[25947.696449]  [<c1035d2a>] ? native_safe_halt+0xa/0x10
+[25947.696454]  [<c1018b6a>] ? default_idle+0x4a/0x190
+[25947.696459]  [<c10107d8>] ? cpu_idle+0xa8/0xe0
+[25947.696465]  [<c158b3ab>] ? start_secondary+0xe8/0xed
+[25947.696469] Mem-Info:
+[25947.696473] DMA per-cpu:
+[25947.696477] CPU    0: hi:    0, btch:   1 usd:   0
+[25947.696480] CPU    1: hi:    0, btch:   1 usd:   0
+[25947.696484] CPU    2: hi:    0, btch:   1 usd:   0
+[25947.696488] CPU    3: hi:    0, btch:   1 usd:   0
+[25947.696491] Normal per-cpu:
+[25947.696495] CPU    0: hi:  186, btch:  31 usd: 124
+[25947.696499] CPU    1: hi:  186, btch:  31 usd: 127
+[25947.696503] CPU    2: hi:  186, btch:  31 usd:  85
+[25947.696506] CPU    3: hi:  186, btch:  31 usd: 174
+[25947.696510] HighMem per-cpu:
+[25947.696513] CPU    0: hi:  186, btch:  31 usd: 182
+[25947.696517] CPU    1: hi:  186, btch:  31 usd: 117
+[25947.696520] CPU    2: hi:  186, btch:  31 usd:  41
+[25947.696524] CPU    3: hi:  186, btch:  31 usd:  64
+[25947.696529] active_anon:168855 inactive_anon:3767 isolated_anon:0
+[25947.696533]  active_file:30520 inactive_file:96684 isolated_file:0
+[25947.696536]  unevictable:0 dirty:255 writeback:0 unstable:0
+[25947.696539]  free:506301 slab_reclaimable:3906 slab_unreclaimable:4616
+[25947.696542]  mapped:36120 shmem:4105 pagetables:2421 bounce:0
+[25947.696548] DMA free:4436kB min:784kB low:980kB high:1176kB active_anon:0kB inactive_anon:0kB active_file:12kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15804kB mlocked:0kB dirty:4kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:136kB kernel_stack:8kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25947.696554] lowmem_reserve[]: 0 869 3948 3948
+[25947.696561] Normal free:50704kB min:44216kB low:55268kB high:66324kB active_anon:0kB inactive_anon:0kB active_file:112kB inactive_file:380kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:890008kB mlocked:0kB dirty:36kB writeback:0kB mapped:4kB shmem:0kB slab_reclaimable:15624kB slab_unreclaimable:18328kB kernel_stack:4248kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:5 all_unreclaimable? no
+[25947.696567] lowmem_reserve[]: 0 0 24637 24637
+[25947.696574] HighMem free:1970064kB min:512kB low:39680kB high:78852kB active_anon:675420kB inactive_anon:15068kB active_file:121956kB inactive_file:386356kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:3153572kB mlocked:0kB dirty:980kB writeback:0kB mapped:144476kB shmem:16420kB slab_reclaimable:0kB slab_unreclaimable:0kB kernel_stack:0kB pagetables:9684kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25947.696580] lowmem_reserve[]: 0 0 0 0
+[25947.696585] DMA: 4*4kB 14*8kB 5*16kB 4*32kB 6*64kB 3*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 0*4096kB = 4432kB
+[25947.696593] Normal: 519*4kB 351*8kB 368*16kB 176*32kB 88*64kB 55*128kB 32*256kB 26*512kB 0*1024kB 0*2048kB 0*4096kB = 50580kB
+[25947.696601] HighMem: 93*4kB 20*8kB 344*16kB 1426*32kB 1025*64kB 342*128kB 102*256kB 38*512kB 18*1024kB 2*2048kB 425*4096kB = 1969940kB
+[25947.696610] 131286 total pagecache pages
+[25947.696613] 0 pages in swap cache
+[25947.696617] Swap cache stats: add 0, delete 0, find 0/0
+[25947.696621] Free swap  = 0kB
+[25947.696624] Total swap = 0kB
+[25947.703881] 1155056 pages RAM
+[25947.703886] 926722 pages HighMem
+[25947.703891] 180205 pages reserved
+[25947.703895] 195989 pages shared
+[25947.703899] 382685 pages non-shared
+[25947.703905] connection_table_add: conn_tab->hash or conn_node are null.
+[25947.703910] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25947.703915] firewall_rx: handle_tcp_chain() failed.
+[25947.703925] DEBUG_INFO: firewall_rx: packet process time: 7769982 nano.
+[25947.964162] DEBUG_INFO: firewall_rx: Received: 10.0.0.6 -> 173.194.113.48 from dev: (null)
+[25947.964169] DEBUG_INFO: firewall_rx: TCP src_port: 42754 dst_port: 443 syn: 1 ack: 0
+[25947.964174] len: 16
+[25947.964178] firewall_rx: data addrs data: ee565530 sk: f750c780
+[25947.964184] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25947.964189] DEBUG_INFO: enforce_rule_base: called
+[25947.964195] DEBUG_INPUT: handle_tcp_conn_chain: Called.
+[25947.964202] swapper/1: page allocation failure: order:8, mode:0x4020
+[25947.964208] Pid: 0, comm: swapper/1 Tainted: G           O 3.2.0-37-generic-pae #58-Ubuntu
+[25947.964213] Call Trace:
+[25947.964224]  [<c15922ab>] ? printk+0x2d/0x2f
+[25947.964232]  [<c10fb46f>] warn_alloc_failed+0xbf/0x100
+[25947.964248]  [<c10fe14f>] __alloc_pages_nodemask+0x56f/0x740
+[25947.964263]  [<c10fe39c>] __get_free_pages+0x1c/0x30
+[25947.964271]  [<c11338c7>] kmalloc_order_trace+0x27/0xa0
+[25947.964279]  [<fb2e88be>] conn_node_create+0x2e/0x80 [fw5]
+[25947.964285]  [<fb2eb515>] ? hash_table_contains+0x15/0x50 [fw5]
+[25947.964293]  [<fb2e8d50>] handle_tcp_conn_chain+0xa0/0x430 [fw5]
+[25947.964301]  [<c10841c5>] ? getnstimeofday+0x55/0x120
+[25947.964307]  [<fb2e7aac>] firewall_rx+0x62c/0x950 [fw5]
+[25947.964314]  [<c1054130>] ? try_to_wake_up+0x190/0x190
+[25947.964322]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.964329]  [<c14d3a03>] nf_iterate+0x63/0x90
+[25947.964334]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.964340]  [<c14d3a92>] nf_hook_slow+0x62/0x110
+[25947.964346]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.964352]  [<c14dee91>] __ip_local_out+0xa1/0xb0
+[25947.964358]  [<c14dd340>] ? ip_forward_options+0x1d0/0x1d0
+[25947.964363]  [<c14deeb0>] ip_local_out+0x10/0x30
+[25947.964369]  [<c14defee>] ip_queue_xmit+0x11e/0x3c0
+[25947.964375]  [<c14f77cf>] ? tcp_v4_md5_lookup+0xf/0x20
+[25947.964382]  [<c15a5636>] ? tcp_syn_options+0xab/0x1b2
+[25947.964397]  [<c14f4de7>] tcp_transmit_skb+0x2d7/0x4a0
+[25947.964425]  [<c14f5c15>] tcp_retransmit_skb+0x165/0x2b0
+[25947.964430]  [<c14f7437>] tcp_retransmit_timer+0x1e7/0x3e0
+[25947.964436]  [<c10540e0>] ? try_to_wake_up+0x140/0x190
+[25947.964441]  [<c14f76f7>] tcp_write_timer+0xc7/0xf0
+[25947.964448]  [<c1067eff>] call_timer_fn+0x2f/0x110
+[25947.964454]  [<c104a8f8>] ? update_shares+0xa8/0xd0
+[25947.964459]  [<c14f7630>] ? tcp_retransmit_timer+0x3e0/0x3e0
+[25947.964464]  [<c10695fb>] run_timer_softirq+0xeb/0x210
+[25947.964471]  [<c10c4cc3>] ? rcu_check_quiescent_state+0x23/0xa0
+[25947.964476]  [<c14f7630>] ? tcp_retransmit_timer+0x3e0/0x3e0
+[25947.964481]  [<c10c555b>] ? __rcu_process_callbacks+0x3b/0x110
+[25947.964487]  [<c1061490>] ? local_bh_enable_ip+0x90/0x90
+[25947.964492]  [<c1061511>] __do_softirq+0x81/0x1a0
+[25947.964497]  [<c1061490>] ? local_bh_enable_ip+0x90/0x90
+[25947.964501]  <IRQ>  [<c1061856>] ? irq_exit+0x76/0xa0
+[25947.964509]  [<c15afd69>] ? smp_apic_timer_interrupt+0x59/0x88
+[25947.964515]  [<c15a8909>] ? apic_timer_interrupt+0x31/0x38
+[25947.964521]  [<c1035d2a>] ? native_safe_halt+0xa/0x10
+[25947.964526]  [<c1018b6a>] ? default_idle+0x4a/0x190
+[25947.964532]  [<c10107d8>] ? cpu_idle+0xa8/0xe0
+[25947.964538]  [<c158b3ab>] ? start_secondary+0xe8/0xed
+[25947.964543] Mem-Info:
+[25947.964547] DMA per-cpu:
+[25947.964551] CPU    0: hi:    0, btch:   1 usd:   0
+[25947.964555] CPU    1: hi:    0, btch:   1 usd:   0
+[25947.964559] CPU    2: hi:    0, btch:   1 usd:   0
+[25947.964563] CPU    3: hi:    0, btch:   1 usd:   0
+[25947.964567] Normal per-cpu:
+[25947.964571] CPU    0: hi:  186, btch:  31 usd: 124
+[25947.964575] CPU    1: hi:  186, btch:  31 usd: 162
+[25947.964579] CPU    2: hi:  186, btch:  31 usd:  85
+[25947.964583] CPU    3: hi:  186, btch:  31 usd: 174
+[25947.964587] HighMem per-cpu:
+[25947.964590] CPU    0: hi:  186, btch:  31 usd: 184
+[25947.964594] CPU    1: hi:  186, btch:  31 usd: 100
+[25947.964598] CPU    2: hi:  186, btch:  31 usd:  29
+[25947.964602] CPU    3: hi:  186, btch:  31 usd:  53
+[25947.964608] active_anon:168855 inactive_anon:3767 isolated_anon:0
+[25947.964611]  active_file:30520 inactive_file:96654 isolated_file:0
+[25947.964614]  unevictable:0 dirty:255 writeback:0 unstable:0
+[25947.964618]  free:506363 slab_reclaimable:3906 slab_unreclaimable:4616
+[25947.964621]  mapped:36120 shmem:4105 pagetables:2421 bounce:0
+[25947.964627] DMA free:4436kB min:784kB low:980kB high:1176kB active_anon:0kB inactive_anon:0kB active_file:12kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15804kB mlocked:0kB dirty:4kB writeback:0kB mapped:0kB shmem:0kB slab_reclaimable:0kB slab_unreclaimable:136kB kernel_stack:8kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25947.964643] lowmem_reserve[]: 0 869 3948 3948
+[25947.964650] Normal free:50704kB min:44216kB low:55268kB high:66324kB active_anon:0kB inactive_anon:0kB active_file:112kB inactive_file:260kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:890008kB mlocked:0kB dirty:36kB writeback:0kB mapped:4kB shmem:0kB slab_reclaimable:15624kB slab_unreclaimable:18328kB kernel_stack:4248kB pagetables:0kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:40 all_unreclaimable? no
+[25947.964657] lowmem_reserve[]: 0 0 24637 24637
+[25947.964664] HighMem free:1970312kB min:512kB low:39680kB high:78852kB active_anon:675420kB inactive_anon:15068kB active_file:121956kB inactive_file:386356kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:3153572kB mlocked:0kB dirty:980kB writeback:0kB mapped:144476kB shmem:16420kB slab_reclaimable:0kB slab_unreclaimable:0kB kernel_stack:0kB pagetables:9684kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[25947.964670] lowmem_reserve[]: 0 0 0 0
+[25947.964675] DMA: 4*4kB 14*8kB 5*16kB 4*32kB 6*64kB 3*128kB 1*256kB 0*512kB 1*1024kB 1*2048kB 0*4096kB = 4432kB
+[25947.964684] Normal: 519*4kB 351*8kB 368*16kB 176*32kB 88*64kB 55*128kB 32*256kB 26*512kB 0*1024kB 0*2048kB 0*4096kB = 50580kB
+[25947.964692] HighMem: 88*4kB 20*8kB 353*16kB 1426*32kB 1025*64kB 342*128kB 102*256kB 38*512kB 18*1024kB 2*2048kB 425*4096kB = 1970064kB
+[25947.964701] 131304 total pagecache pages
+[25947.964705] 0 pages in swap cache
+[25947.964709] Swap cache stats: add 0, delete 0, find 0/0
+[25947.964712] Free swap  = 0kB
+[25947.964716] Total swap = 0kB
+[25947.971095] 1155056 pages RAM
+[25947.971101] 926722 pages HighMem
+[25947.971105] 180205 pages reserved
+[25947.971109] 195957 pages shared
+[25947.971112] 382685 pages non-shared
+[25947.971118] connection_table_add: conn_tab->hash or conn_node are null.
+[25947.971124] handle_tcp_conn_chain: failed to set the chain to the connection table.
+[25947.971129] firewall_rx: handle_tcp_chain() failed.
+[25947.971138] DEBUG_INFO: firewall_rx: packet process time: 6980496 nano.
+[25961.024161] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25961.024168] DEBUG_INFO: firewall_rx: TCP src_port: 42877 dst_port: 7337 syn: 1 ack: 0
+[25961.024173] len: 16
+[25961.024177] firewall_rx: data addrs data: f6c07f30 sk: ec4b9b00
+[25961.024183] 00 00 00 00 00 00 00 00 20 81 4c f6 00 10 00 00  ........ .L.....
+[25961.024187] DEBUG_INFO: enforce_rule_base: called
+[25961.024192] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25961.024200] DEBUG_INFO: firewall_rx: packet process time: 43022 nano.
+[25961.024208] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.024223] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25961.024228] DEBUG_INFO: firewall_rx: TCP src_port: 42877 dst_port: 7337 syn: 1 ack: 0
+[25961.024232] len: 16
+[25961.024236] firewall_rx: data addrs data: f6c07f30 sk: ec4b9b00
+[25961.024241] 00 00 00 00 00 00 00 00 20 81 4c f6 00 10 00 00  ........ .L.....
+[25961.024246] DEBUG_INFO: enforce_rule_base: called
+[25961.024250] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25961.024258] DEBUG_INFO: firewall_rx: packet process time: 35759 nano.
+[25961.024266] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.024281] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25961.024286] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42877 syn: 0 ack: 1
+[25961.024290] len: 264
+[25961.024294] firewall_rx: data addrs data: f6c07c38 sk: eb8d1480
+[25961.024299] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024303] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024308] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024312] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024317] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024321] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024326] 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 00 00  ................
+[25961.024331] ff ff ff ff 00 00 00 00 64 6d 65 73 67 00 6d 65  ........dmesg.me
+[25961.024335] 00 00 00 00 14 38 06 08 ff ff ff ff 00 00 00 00  .....8..........
+[25961.024340] 00 ff 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  ................
+[25961.024344] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024349] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024353] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024358] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024362] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024367] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024371] 00 00 00 00 00 00 00 00                          ........
+[25961.024379] DEBUG_INFO: firewall_rx: packet process time: 99175 nano.
+[25961.024387] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.024398] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25961.024403] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42877 syn: 0 ack: 1
+[25961.024407] len: 264
+[25961.024411] firewall_rx: data addrs data: f6c07c38 sk: eb8d1480
+[25961.024416] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024420] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024425] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024429] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024434] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024438] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024443] 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 00 00  ................
+[25961.024447] ff ff ff ff 00 00 00 00 64 6d 65 73 67 00 6d 65  ........dmesg.me
+[25961.024452] 00 00 00 00 14 38 06 08 ff ff ff ff 00 00 00 00  .....8..........
+[25961.024456] 00 ff 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  ................
+[25961.024461] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024466] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024470] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024475] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024479] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024484] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.024488] 00 00 00 00 00 00 00 00                          ........
+[25961.024496] DEBUG_INFO: firewall_rx: packet process time: 98896 nano.
+[25961.024504] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.132842] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25961.132866] DEBUG_INFO: firewall_rx: TCP src_port: 42878 dst_port: 7337 syn: 1 ack: 0
+[25961.132890] len: 16
+[25961.132901] firewall_rx: data addrs data: f6c07f30 sk: ec4b9b00
+[25961.132910] 00 00 00 00 00 00 00 00 20 81 4c f6 00 10 00 00  ........ .L.....
+[25961.132918] DEBUG_INFO: enforce_rule_base: called
+[25961.132926] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25961.132942] DEBUG_INFO: firewall_rx: packet process time: 125994 nano.
+[25961.132952] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.132969] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25961.132975] DEBUG_INFO: firewall_rx: TCP src_port: 42878 dst_port: 7337 syn: 1 ack: 0
+[25961.132980] len: 16
+[25961.132984] firewall_rx: data addrs data: f6c07f30 sk: ec4b9b00
+[25961.132989] 00 00 00 00 00 00 00 00 20 81 4c f6 00 10 00 00  ........ .L.....
+[25961.132994] DEBUG_INFO: enforce_rule_base: called
+[25961.132999] DEBUG_INFO: enforce_rule_base: Rule 1 matched action: 1
+[25961.133007] DEBUG_INFO: firewall_rx: packet process time: 39670 nano.
+[25961.133016] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.133031] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: (null)
+[25961.133035] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42878 syn: 0 ack: 1
+[25961.133040] len: 264
+[25961.133044] firewall_rx: data addrs data: f6c07c38 sk: eb8d13c0
+[25961.133048] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133052] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133057] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133061] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133065] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133069] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133073] 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 00 00  ................
+[25961.133078] ff ff ff ff 00 00 00 00 64 6d 65 73 67 00 6d 65  ........dmesg.me
+[25961.133082] 00 00 00 00 14 38 06 08 ff ff ff ff 00 00 00 00  .....8..........
+[25961.133086] 00 ff 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  ................
+[25961.133090] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133095] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133099] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133103] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133107] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133111] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133116] 00 00 00 00 00 00 00 00                          ........
+[25961.133123] DEBUG_INFO: firewall_rx: packet process time: 93308 nano.
+[25961.133131] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25961.133141] DEBUG_INFO: firewall_rx: Received: 127.0.0.1 -> 127.0.0.1 from dev: lo
+[25961.133145] DEBUG_INFO: firewall_rx: TCP src_port: 7337 dst_port: 42878 syn: 0 ack: 1
+[25961.133149] len: 264
+[25961.133153] firewall_rx: data addrs data: f6c07c38 sk: eb8d13c0
+[25961.133157] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133162] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133166] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133170] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133174] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133178] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133183] 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 00 00  ................
+[25961.133187] ff ff ff ff 00 00 00 00 64 6d 65 73 67 00 6d 65  ........dmesg.me
+[25961.133191] 00 00 00 00 14 38 06 08 ff ff ff ff 00 00 00 00  .....8..........
+[25961.133195] 00 ff 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  ................
+[25961.133200] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133204] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133208] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133212] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133216] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133221] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[25961.133225] 00 00 00 00 00 00 00 00                          ........
+[25961.133232] DEBUG_INFO: firewall_rx: packet process time: 91911 nano.
+[25961.133240] DEBUG_INFO: log_verdict_and_reason: local address skiped.
+[25965.087571] DEBUG_INFO: clean_rule_base: called
+[25965.087577] DEBUG_INFO: clean_rule_base: freeing connection table.
+[25965.116397] Firewall module removed.
